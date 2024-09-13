@@ -1,5 +1,6 @@
 #root {
   max-width: 1280px;
+  height: auto;
   margin: 0 auto;
 }
 
@@ -10,9 +11,6 @@ body {
 
 #container {
   padding: 2.5rem;
-  /* display: flex;
-  flex-direction: column;
-  align-items: center; */
   color: white;
   background-color: #275db3;
   border: 0.2em solid white;
@@ -20,18 +18,28 @@ body {
     font-size: 2.75em;
   }
 
-  h3 {
+  h2 {
     font-size: 1.5em;
+  }
+
+  h3 {
+    font-size: 1.1em;
+    padding-bottom: .5em;
+  }
+
+  ul {
+    padding-top: .5em;
+    padding-bottom: 1em;
   }
 }
 
-#header {
+header {
   #name {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: baseline;
 
-    h3 {
+    h2 {
       text-align: right;
     }
   }
@@ -42,13 +50,10 @@ body {
   }
 }
 
-#tech-skills {
+section {
   margin-top: 0.75em;
 
-  h3 {
-    margin-left: .5em;
-  }
-  #skills-list {
+  article {
     background-color: #1d4483;
     padding: 1em;
     border: 0.1em solid white;

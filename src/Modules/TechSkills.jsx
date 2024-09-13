@@ -1,13 +1,11 @@
-import "./App.css";
-
-export default function Header() {
+export default function TechSkills() {
   return (
-    <section id="tech-skills">
-      <h3>Technical Skills</h3>
-      <div id="skills-list">
+    <section>
+      <h2>- Technical Skills</h2>
+      <article>
         <p>Proficient: HTML5, CSS3, JavaScript, React, Git, Responsive Design</p>
         <p>Knowledgeable: Node.js, Express, SQL</p>
-      </div>
+      </article>
     </section>
   );
 }
