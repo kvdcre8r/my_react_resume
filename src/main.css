@@ -16,6 +16,7 @@ body > div {
 }
 
 #container > div {
+  background-color: #275db3;
   display: flex;
 }
 
