@@ -1,7 +1,7 @@
 export default function Experience() {
   return (
     <section>
-      <h2>- Relevant Experience</h2>
+      <h2>Relevant Experience</h2>
       <article>
         <h3>
           GENERAL MANAGER | SOS Thrift Store | Greenville, SC Apr ‘17 - Dec ‘17

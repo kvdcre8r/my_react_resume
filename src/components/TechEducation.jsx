@@ -1,7 +1,7 @@
 export default function TechEducation() {
   return (
     <section>
-      <h2>- Technical Education</h2>
+      <h2>Technical Education</h2>
       <article>
         <h3>
           WEB DEVELOPMENT BOOTCAMP GRADUATE | Fullstack Academy | Aug ‘23 - Apr

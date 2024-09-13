@@ -1,7 +1,7 @@
 export default function TechProjects() {
   return (
     <section>
-      <h2>- Technical Projects</h2>
+      <h2>Technical Projects</h2>
       <article>
         <h3>
           THE SUPER-DEVELOPER | Sept ‘23 |
