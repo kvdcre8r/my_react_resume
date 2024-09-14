@@ -1,4 +1,4 @@
-main {
+.classic {
   color: black;
   background-color: white;
   border: 0.2em solid black;
@@ -9,6 +9,7 @@ main {
 
   h2 {
     font-size: 1.5em;
+    border-bottom: 0.1em solid black;
   }
 
   h3 {
@@ -20,39 +21,40 @@ main {
     padding-top: 0.5em;
     padding-bottom: 1em;
   }
-}
 
-header {
-  padding: 2rem;
-  border-bottom: 0.1em solid white;
+  header {
+    padding: 2rem;
+    border-bottom: 0.1em solid white;
 
-  #name {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: baseline;
+    #name {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      align-items: baseline;
 
-    h2 {
-      text-align: right;
+      h2 {
+        text-align: right;
+        border: none
+      }
+    }
+
+    #subscript {
+      margin-top: 0.25em;
+      font-size: 1.2em;
     }
   }
 
-  #subscript {
-    margin-top: 0.25em;
-    font-size: 1.2em;
+  #main-content {
+    padding: 1rem 2rem;
   }
-}
 
-#main-content {
-  padding: 1rem 2rem;
-}
+  section {
+    margin-top: 0.75em;
 
-section {
-  margin-top: 0.75em;
-
-  article {
-    background-color: #1d4483;
-    padding: 1em;
-    border: 0.1em solid white;
-    margin-top: 0.5em;
+    article {
+      background-color: white;
+      padding: 1em;
+      border: 0.1em solid white;
+      margin-top: 0.5em;
+    }
   }
 }
