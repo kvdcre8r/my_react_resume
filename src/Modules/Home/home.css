@@ -6,8 +6,17 @@
   header {
     border-bottom: 0.1em solid white;
   }
-
-  article {
-    background-color: #1d4483;
+  #main-content {
+    padding: 1rem 2rem;
+    
+    article {
+      background-color: #1d4483;
+      font-family: spyagency;
+    }
   }
+}
+
+@font-face {
+  font-family: spyagency;
+  src: url(../../assets/spyagency.ttf);
 }
