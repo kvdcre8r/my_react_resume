@@ -1,20 +1,13 @@
-import Header from "../components/Header.jsx";
-import TechSkills from "../components/TechSkills.jsx";
-import TechProjects from "../components/TechProjects.jsx";
-import TechEducation from "../components/TechEducation.jsx";
-import Experience from "../components/Experience.jsx";
+import Header from "../../components/Header.jsx";
 import "./home.css";
 
 export function Home() {
   return (
     <main className="home">
       <Header />
-      <div id="main-content">
-        <TechSkills />
-        <TechProjects />
-        <TechEducation />
-        <Experience />
-      </div>
+      <section>
+        <article>Welcome to the Live Resume of Web Developer Kevin VanDonkelaar! An interactive experience designed to showcase the talents and creativity of this aspiring Super-Devloper!</article>
+      </section>
     </main>
   );
 }

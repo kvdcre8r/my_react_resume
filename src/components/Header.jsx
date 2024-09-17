@@ -8,7 +8,7 @@ export default function Header() {
       </div>
       <div id="subscript">
         <p>
-          (864)640-9241 | kvdcre8r@gmail.com | St. Louis, MO |
+          (864) 640-9241 | kvdcre8r@gmail.com | St. Louis, MO |
           linkedin.com/in/kevinvandonkelaar
           <br />
           kevin-vandonkelaar-personal-website.github.io/kvdcre8r |

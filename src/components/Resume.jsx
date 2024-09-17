@@ -3,11 +3,11 @@ import TechSkills from "../components/TechSkills.jsx";
 import TechProjects from "../components/TechProjects.jsx";
 import TechEducation from "../components/TechEducation.jsx";
 import Experience from "../components/Experience.jsx";
-import "./classic.css";
+import "../App.css"
 
-export function Classic() {
+export default function ResumeContent() {
   return (
-    <main className="classic">
+    <main className="resume-content">
       <Header />
       <div id="main-content">
         <TechSkills />
@@ -18,4 +18,3 @@ export function Classic() {
     </main>
   );
 }
-                                                       
