@@ -3,44 +3,10 @@
   background-color: white;
   border: 0.2em solid black;
 
-  h1 {
-    font-size: 2.75em;
-  }
-
   h2 {
-    font-size: 1.5em;
     border-bottom: 0.1em solid black;
   }
-
-  h3 {
-    font-size: 1.1em;
-    padding-bottom: 0.5em;
-  }
-
-  ul {
-    padding-top: 0.5em;
-    padding-bottom: 1em;
-  }
-
   header {
-    padding: 2rem;
     border-bottom: 0.1em solid white;
-
-    #name {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      align-items: baseline;
-
-      h2 {
-        text-align: right;
-        border: none
-      }
-    }
-
-    #subscript {
-      margin-top: 0.25em;
-      font-size: 1.2em;
-    }
   }
-
 }

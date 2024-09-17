@@ -1,9 +1,8 @@
-import Header from "../components/Header.jsx";
-import TechSkills from "../components/TechSkills.jsx";
-import TechProjects from "../components/TechProjects.jsx";
-import TechEducation from "../components/TechEducation.jsx";
-import Experience from "../components/Experience.jsx";
-import "../App.css"
+import Header from "./header.jsx";
+import TechSkills from "./techSkills.jsx";
+import TechProjects from "./techProjects.jsx";
+import TechEducation from "./techEducation.jsx";
+import Experience from "./experience.jsx";
 
 export default function ResumeContent() {
   return (
