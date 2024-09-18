@@ -3,20 +3,44 @@
   background-color: #275db3;
   border: 0.2em solid white;
 
-  header {
-    border-bottom: 0.1em solid white;
-  }
-  #main-content {
-    padding: 1rem 2rem;
-    
-    article {
-      background-color: #1d4483;
-      font-family: spyagency;
+  #home-content {
+    padding-bottom: 20em;
+    header {
+      border-bottom: 0.1em solid white;
+      padding: 2rem;
+    }
+
+    section {
+      padding: 2em 2em;
+
+      #intro {
+        color: greenyellow;
+        text-align: center;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 1.5em;
+        text-wrap: balance;
+
+        #desc {
+          font-size: 1.25em;
+          padding: 0.5em;
+        }
+      }
+      #features {
+        padding-top: 1em;
+      }
+      h2 {
+        font-size: 1.75em;
+      }
+
+      article {
+        color: white;
+        text-align: left;
+
+        li {
+          font-size: 1.25em;
+          padding-top: 0.5em;
+        }
+      }
     }
   }
-}
-
-@font-face {
-  font-family: spyagency;
-  src: url(../../assets/spyagency.ttf);
 }

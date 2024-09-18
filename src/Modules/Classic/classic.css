@@ -1,12 +1,15 @@
 .classic {
-  color: black;
-  background-color: white;
+  color:  rgb(62, 92, 126);
+  background-color: ivory;
   border: 0.2em solid black;
 
   h2 {
-    border-bottom: 0.1em solid black;
+    border-bottom: 0.1em solid rgb(47, 66, 87);
   }
   header {
-    border-bottom: 0.1em solid white;
+    border-bottom: 0.1em solid ivory;
+  }
+  article {
+    background-color: ivory;
   }
 }

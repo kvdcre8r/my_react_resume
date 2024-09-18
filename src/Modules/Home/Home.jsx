@@ -4,16 +4,30 @@ import "./home.css";
 export function Home() {
   return (
     <main className="home">
-      <div id="main-content">
+      <div id="home-content">
         <Header />
         <section>
-          <article>
+          <div id="intro">
             <h2>
-              Welcome to the Live Resume of Web Developer Kevin VanDonkelaar! An
-              interactive experience designed to showcase the talents and
-              creativity of this aspiring Super-Devloper!
+              <u>Welcome to My Live Resume!</u>
             </h2>
-          </article>
+            <h2 id="desc">
+              <em>
+                An interactive experience showcasing the skills, talents, and
+                creativity of an aspiring web developer.
+              </em>
+            </h2>
+          </div>
+          <div id="features">
+            <h2>Features</h2>
+            <article>
+              <ul>
+                <li>Interactive User Interface</li>
+                <li></li>
+                <li></li>
+              </ul>
+            </article>
+          </div>
         </section>
       </div>
     </main>

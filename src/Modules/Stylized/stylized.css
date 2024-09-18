@@ -1,13 +1,23 @@
 .stylized {
-  color: white;
-  background-color: #275db3;
+  color: black;
+  background-color:black;
   border: 0.2em solid white;
+  font-family: spyagency;
+  text-shadow: -.05em 0 greenyellow, 0 .05em greenyellow,
+  .05em 0 greenyellow, 0 -.05em greenyellow;;
 
   header {
     border-bottom: 0.1em solid white;
   }
 
-  article {
-    background-color: #1d4483;
+  section {
+    article {
+      background-color: rgb(26, 49, 49);
+    }
   }
+}
+
+@font-face {
+  font-family: 'spyagency';
+  src: url(../../assets/spyagency.ttf);
 }
