@@ -7,7 +7,8 @@
     border-bottom: 0.1em solid rgb(47, 66, 87);
   }
   header {
-    border-bottom: 0.1em solid ivory;
+    padding-bottom: 1em;
+    border-bottom: none;
   }
   article {
     background-color: ivory;

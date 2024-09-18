@@ -1,23 +1,48 @@
 .stylized {
   color: black;
-  background-color:black;
+  background-color: black;
   border: 0.2em solid white;
   font-family: spyagency;
-  text-shadow: -.05em 0 greenyellow, 0 .05em greenyellow,
-  .05em 0 greenyellow, 0 -.05em greenyellow;;
+  text-shadow: -0.05em 0 greenyellow, 0 0.05em greenyellow, 0.05em 0 greenyellow,
+    0 -0.05em greenyellow;
 
   header {
     border-bottom: 0.1em solid white;
+
+    #subscript {
+      font-family: monospace;
+      font-size: 1.25em;
+      color: greenyellow;
+      text-shadow: none;
+    }
   }
 
   section {
+    h2 {
+      font-size: 1.2em;
+    }
+
     article {
-      background-color: rgb(26, 49, 49);
+      background-color: rgb(12, 33, 33);
+      font-family: monospace;
+      color: greenyellow;
+      text-shadow: none;
+
+      h3 {
+        font-size: 1.5em;
+      }
+ul {
+        padding-bottom: 2em;
+      }
+      p,
+      li {
+        font-size: 1.25em;
+      }
     }
   }
 }
 
 @font-face {
-  font-family: 'spyagency';
+  font-family: "spyagency";
   src: url(../../assets/spyagency.ttf);
 }
