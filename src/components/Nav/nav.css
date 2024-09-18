@@ -1,0 +1,38 @@
+nav {
+    top: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    position: sticky;
+    display: flex;
+    background-color: black;
+  
+    a {
+      display: block;
+      float: left;
+      text-align: center;
+      text-decoration: none;
+      color: rgb(179, 179, 179);
+      font-size: 16px;
+      padding: 14px 16px;
+    }
+  
+    .navlink {
+      /* color: rgb(147, 147, 147); */
+      padding-left: 5px;
+    }
+  
+    .active {
+      color: white;
+    }
+  
+    :hover {
+      background-color: rgb(179, 179, 179);
+      color: black;
+    }
+  
+    .active:hover {
+      color: rgb(142, 212, 35);
+      /* text-shadow: var(--text-outline-dark); */
+    }
+  }

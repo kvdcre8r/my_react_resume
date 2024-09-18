@@ -1,4 +1,4 @@
-import ResumeContent from "../../components/Resume.jsx";
+import ResumeContent from "../../components/Resume/Resume.jsx";
 import "./stylized.css";
 
 export function Stylized() {

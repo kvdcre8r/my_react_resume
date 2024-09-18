@@ -1,6 +1,6 @@
 .stylized {
   color: black;
-  background-color: black;
+  background-color: rgb(12, 33, 33);
   border: 0.2em solid white;
   font-family: spyagency;
   text-shadow: -0.05em 0 greenyellow, 0 0.05em greenyellow, 0.05em 0 greenyellow,
@@ -23,7 +23,7 @@
     }
 
     article {
-      background-color: rgb(12, 33, 33);
+      background-color: black;
       font-family: monospace;
       color: greenyellow;
       text-shadow: none;
