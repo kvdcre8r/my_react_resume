@@ -8,6 +8,10 @@
     header {
       border-bottom: 0.1em solid white;
       padding: 2rem;
+
+      h2 {
+        font-size: 0em;
+      }
     }
 
     section {

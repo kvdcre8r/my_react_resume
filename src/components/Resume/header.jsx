@@ -5,7 +5,7 @@ export default function Header() {
     <header>
       <div id="name">
         <h1>Kevin VanDonkelaar</h1>
-        {/* <Dropdown /> */}
+        <h2>Web Developer</h2>
       </div>
       <div id="subscript">
         <p>
