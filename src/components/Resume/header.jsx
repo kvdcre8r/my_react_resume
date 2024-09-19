@@ -1,9 +1,11 @@
+// import Dropdown from "../Nav/dropdown.jsx";
+
 export default function Header() {
   return (
     <header>
       <div id="name">
         <h1>Kevin VanDonkelaar</h1>
-        <h2>Web Developer</h2>
+        {/* <Dropdown /> */}
       </div>
       <div id="subscript">
         <p>

@@ -4,17 +4,20 @@ import "./nav.css";
 export default function Nav() {
   return (
     <nav>
-      <Link to="/">Home</Link>
-      <Link to="/Classic">My Classic Resume</Link>
-      <Link to="/Stylized">My Stylized Resume</Link>
-      {/* <div class="dropdown">
-        <button class="dropbtn">Dropdown</button>
-        <div class="dropdown-content">
-          <a href="#">Link 1</a>
-          <a href="#">Link 2</a>
-          <a href="#">Link 3</a>
+      <div className="navbar">
+        <Link to="/">Home</Link>
+        <div className="dropdown">
+          <button className="dropbtn">
+            <p>
+              Themes <i className="fa fa-caret-down"></i>
+            </p>
+          </button>
+          <div className="dropdown-content">
+            <Link to="/classic">Classic</Link>
+            <Link to="/stylized">Stylized</Link>
+          </div>
         </div>
-      </div> */}
+      </div>
     </nav>
   );
 }
