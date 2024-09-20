@@ -1,0 +1,52 @@
+.superhero {
+    color: rgb(194, 34, 34);
+    background-color: blue;
+    border: 0.2em solid white;
+    font-family: champion;
+    text-shadow: -0.05em 0 white, 0 0.05em white, 0.05em 0 white,
+        0 -0.05em white;
+    font-size: 1.1em;
+
+    header {
+        border-bottom: 0.1em solid white;
+        ;
+
+        #subscript {
+            font-family: monospace;
+            font-size: 1.15em;
+            color: white;
+            text-shadow: none;
+        }
+    }
+
+    section {
+        h2 {
+            font-size: 1.5em;
+        }
+
+        article {
+            background-color: darkblue;
+            font-family: monospace;
+            color: white;
+            text-shadow: none;
+
+            h3 {
+                font-size: 1.1em;
+            }
+
+            ul {
+                padding-bottom: 2em;
+            }
+
+            p,
+            li {
+                font-size: .9em;
+            }
+        }
+    }
+}
+
+@font-face {
+    font-family: "spyagency";
+    src: url(../../assets/spyagency.ttf);
+}

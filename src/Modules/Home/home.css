@@ -52,3 +52,8 @@
   font-family: "spyagency";
   src: url(../../assets/spyagency.ttf);
 }
+
+@font-face {
+  font-family: "champion";
+  src: url(../../assets/champion.ttf);
+}

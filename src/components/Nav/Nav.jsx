@@ -13,8 +13,9 @@ export default function Nav() {
             </p>
           </button>
           <div className="dropdown-content">
-            <Link to="/classic">Classic</Link>
-            <Link to="/stylized">Stylized</Link>
+            <Link to="/classic"><strong>Professional</strong></Link>
+            <Link to="/stylized">MAINFRAME</Link>
+            <Link to="/superhero"><strong>S u p e r h e r o</strong></Link>
           </div>
         </div>
       </div>
