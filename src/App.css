@@ -14,7 +14,7 @@ body {
 }
 
 h1 {
-  font-size: 2.75em;
+  font-size: 3.5em;
 }
 
 h2 {
@@ -33,27 +33,44 @@ ul {
 
 header {
   padding: 2rem;
+  border-bottom: 0.1em solid white;
+  display: flex;
 
-  #name {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    align-items: baseline;
-
-    h2 {
-      text-align: right;
-      border: none;
-    }
+  #profile-pic {
+    width: 7em;
+    height: 7em;
   }
 
-  #subscript {
-    margin-top: 0.25em;
-    font-size: 1.2em;
+  #text-content {
+    padding-left: 1em;
+    flex-grow: 1;
+
+    #name {
+      display: flex;
+      grid-template-columns: 1fr 2fr 1fr;
+      align-items: baseline;
+
+      h1 {
+        flex-grow: 1;
+      }
+
+      h2 {
+        text-align: right;
+        border: none;
+      }
+    }
+
+    #subscript {
+      margin-top: 0.25em;
+      font-size: 1.2em;
+    }
   }
 }
 
 #main-content {
   padding: 1rem 2rem;
 }
+
 section {
   margin-top: 0.75em;
 

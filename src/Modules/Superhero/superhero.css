@@ -1,6 +1,6 @@
 .superhero {
     color: rgb(194, 34, 34);
-    background-color: blue;
+    background-color: darkblue;
     border: 0.2em solid white;
     font-family: champion;
     text-shadow: -0.05em 0 white, 0 0.05em white, 0.05em 0 white,
@@ -9,7 +9,24 @@
 
     header {
         border-bottom: 0.1em solid white;
-        ;
+
+        #profile-pic, #coder-profile-pic {
+            width: 0em;
+            height: 0em;
+          }
+
+        #comic-profile-pic {
+            width: 7em;
+            height: 7em;
+            border: .1em solid rgb(194, 34, 34);
+            border-radius: .5em;
+        }
+
+        #name {
+            h1 {
+                font-size: 4.5em;
+            }
+        }
 
         #subscript {
             font-family: monospace;
@@ -25,7 +42,7 @@
         }
 
         article {
-            background-color: darkblue;
+            background-color: blue;
             font-family: monospace;
             color: white;
             text-shadow: none;

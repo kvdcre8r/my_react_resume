@@ -1,15 +1,27 @@
 .classic {
-  color:  rgb(62, 92, 126);
+  color: rgb(62, 92, 126);
   background-color: ivory;
   border: 0.2em solid rgb(62, 92, 126);
+
+  header {
+    padding-bottom: 1em;
+    border-bottom: none;
+
+    #profile-pic,
+    #comic-profile-pic,
+    #coder-profile-pic {
+      width: 0em;
+    }
+
+    #text-content {
+      padding-left: 0em;
+    }
+  }
 
   h2 {
     border-bottom: 0.1em solid rgb(47, 66, 87);
   }
-  header {
-    padding-bottom: 1em;
-    border-bottom: none;
-  }
+
   article {
     background-color: ivory;
   }
