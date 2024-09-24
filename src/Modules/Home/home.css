@@ -1,60 +1,113 @@
 .home {
-  color: white;
+  color: ivory;
+  text-shadow: -0.05em 0 darkblue, 0 0.05em darkblue, 0.05em 0 darkblue,
+    0 -0.05em darkblue;
   background-color: #275db3;
-  border: 0.2em solid white;
+  border: 0.2em solid ivory;
+  border-radius: 0.5em;
+  font-family: "open-sans";
 
-  #home-content {
-    padding-bottom: 20em;
-    header {
+  header {
+    border-top-left-radius: .5em;
+    border-top-right-radius: .5em;
+    padding: 2rem;
+    border-bottom: 0.2em solid white;
+    display: flex;
 
-      #comic-profile-pic, #coder-profile-pic {
-        width: 0em;
-        height: 0em;
-      }
+    #profile-pic {
+      width: 6em;
+      height: 6em;
+      border: .1em solid ivory;
+      background-color: #1d4483;
+      border-radius: .5em;
+    }
+
+    #comic-profile-pic,
+    #coder-profile-pic {
+      width: 0em;
+      height: 0em;
+    }
+
+    #text-content {
+      padding-left: 1em;
+      flex-grow: 1;
 
       #name {
+        display: flex;
+        grid-template-columns: 1fr 2fr 1fr;
+        align-items: baseline;
+
+        h1 {
+          font-size: 3.6em;
+          font-family: "josefin-sans";
+          flex-grow: 1;
+        }
+
         h2 {
           font-size: 0em;
+          text-align: right;
+          border: none;
+        }
+      }
+
+      #subscript {
+        margin-top: 0.25em;
+        font-size: 1em;
+      }
+    }
+  }
+
+  #home-content {
+    background-image: url("../../assets/landscape-blue-pixels.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #1d4483;
+    padding: 1rem 2rem;
+    display: flex;
+
+    #home-left {
+      padding: 1em 1em;
+
+      #greeting {
+        font-size: 2.75em;
+        font-family: "josefin-sans";
+      }
+
+      #desc {
+        font-size: 1.25em;
+        padding: 1em;
+      }
+    }
+
+    #home-right {
+      width: 100%;
+      padding: 1em;
+
+      h2 {
+        font-size: 1.75em;
+      }
+    }
+
+    section {
+      margin-top: 0.75em;
+
+      article {
+        text-align: left;
+        background-color: #2b66c6c5;
+        padding: 1em;
+        border: 0.1em solid white;
+        margin-top: 0.5em;
+        border-radius: 0.5em;
+
+        li {
+          font-size: 1.25em;
+          padding-top: 0.5em;
         }
       }
     }
   }
-
-  section {
-    padding: 2em 2em;
-
-    #intro {
-      color: greenyellow;
-      text-align: center;
-      font-size: 1.5em;
-      text-wrap: balance;
-
-      #desc {
-        font-size: 1.25em;
-        padding: 0.5em;
-      }
-    }
-
-    #features {
-      padding-top: 1em;
-    }
-
-    h2 {
-      font-size: 1.75em;
-    }
-
-    article {
-      color: white;
-      text-align: left;
-
-      li {
-        font-size: 1.25em;
-        padding-top: 0.5em;
-      }
-    }
-  }
 }
-
 
 @font-face {
   font-family: "spyagency";
@@ -64,4 +117,19 @@
 @font-face {
   font-family: "champion";
   src: url(../../assets/champion.ttf);
+}
+
+@font-face {
+  font-family: "open-sans";
+  src: url(../../assets/OpenSans.ttf);
+}
+
+@font-face {
+  font-family: "courgette";
+  src: url(../../assets/courgette.ttf);
+}
+
+@font-face {
+  font-family: "josefin-sans";
+  src: url(../../assets/JosefinSans.ttf);
 }

@@ -2,18 +2,19 @@
     color: rgb(194, 34, 34);
     background-color: darkblue;
     border: 0.2em solid white;
+    border-radius: .5em;
     font-family: champion;
     text-shadow: -0.05em 0 white, 0 0.05em white, 0.05em 0 white,
         0 -0.05em white;
-    font-size: 1.1em;
 
     header {
         border-bottom: 0.1em solid white;
 
-        #profile-pic, #coder-profile-pic {
+        #profile-pic,
+        #coder-profile-pic {
             width: 0em;
             height: 0em;
-          }
+        }
 
         #comic-profile-pic {
             width: 7em;
@@ -37,6 +38,8 @@
     }
 
     section {
+        font-size: 1.2em;
+
         h2 {
             font-size: 1.5em;
         }
@@ -44,6 +47,7 @@
         article {
             background-color: blue;
             font-family: monospace;
+            border-radius: .5em;
             color: white;
             text-shadow: none;
 

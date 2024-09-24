@@ -6,13 +6,16 @@
   text-shadow: -0.05em 0 greenyellow, 0 0.05em greenyellow, 0.05em 0 greenyellow,
     0 -0.05em greenyellow;
   border: 0.2em solid white;
+  border-radius: .5em;
+
+
 
   header {
     border-bottom: 0.1em solid white;
 
     #coder-profile-pic {
       width: 5em;
-      height: 7em;
+      height: max-content;
       border: .1em solid greenyellow;
       border-radius: .5em;
     }
