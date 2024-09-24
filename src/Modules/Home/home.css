@@ -7,7 +7,7 @@
   border-radius: 0.5em;
   font-family: "open-sans";
 
-  header {
+  Header {
     border-top-left-radius: .5em;
     border-top-right-radius: .5em;
     padding: 2rem;
@@ -27,35 +27,37 @@
       width: 0em;
       height: 0em;
     }
+  }
 
-    #text-content {
-      padding-left: 1em;
-      flex-grow: 1;
 
-      #name {
-        display: flex;
-        grid-template-columns: 1fr 2fr 1fr;
-        align-items: baseline;
+  #text-content {
+    padding-left: 1em;
+    flex-grow: 1;
 
-        h1 {
-          font-size: 3.6em;
-          font-family: "josefin-sans";
-          flex-grow: 1;
-        }
+    #name {
+      display: flex;
+      grid-template-columns: 1fr 2fr 1fr;
+      align-items: baseline;
 
-        h2 {
-          font-size: 0em;
-          text-align: right;
-          border: none;
-        }
+      h1 {
+        font-size: 3.6em;
+        font-family: "josefin-sans";
+        flex-grow: 1;
       }
 
-      #subscript {
-        margin-top: 0.25em;
-        font-size: 1em;
+      h2 {
+        font-size: 0em;
+        text-align: right;
+        border: none;
       }
     }
+
+    #subscript {
+      margin-top: 0.25em;
+      font-size: 1em;
+    }
   }
+
 
   #home-content {
     background-image: url("../../assets/landscape-blue-pixels.jpeg");

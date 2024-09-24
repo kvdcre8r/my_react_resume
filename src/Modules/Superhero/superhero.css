@@ -1,11 +1,11 @@
 .superhero {
     color: rgb(194, 34, 34);
-    background-color: darkblue;
     border: 0.2em solid white;
+    background-color: darkblue;
     border-radius: .5em;
-    font-family: champion;
     text-shadow: -0.05em 0 white, 0 0.05em white, 0.05em 0 white,
         0 -0.05em white;
+    font-family: champion;
 
     header {
         border-bottom: 0.1em solid white;
@@ -24,8 +24,15 @@
         }
 
         #name {
+
             h1 {
                 font-size: 4.5em;
+            }
+
+            h2 {
+                font-size: 2em;
+                text-align: right;
+                border: none;
             }
         }
 
@@ -37,25 +44,41 @@
         }
     }
 
+    #superhero-content {
+        background-image: url("../../assets/spiderweb_background.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-color: #1d4483;
+        padding: 1rem 2rem;
+    }
+
     section {
-        font-size: 1.2em;
+        margin-top: 0.75em;
+        font-size: 1.4em;
 
         h2 {
             font-size: 1.5em;
         }
 
         article {
-            background-color: blue;
+            background-color: rgba(0, 16, 139, 0.754);
             font-family: monospace;
             border-radius: .5em;
             color: white;
             text-shadow: none;
+            padding: 1em;
+            border: 0.1em solid white;
+            margin-top: 0.5em;
 
             h3 {
                 font-size: 1.1em;
+                padding-bottom: 0.15em;
+
             }
 
             ul {
+                padding-top: 0.5em;
                 padding-bottom: 2em;
             }
 
