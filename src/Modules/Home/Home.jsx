@@ -1,4 +1,4 @@
-import Header from "../../components/Header/header.jsx";
+import Header from "../../components/Header/Header.jsx";
 import { HomeLeft } from "./homeLeft.jsx";
 import { HomeRight } from "./homeRight.jsx";
 import "./home.css";

@@ -1,4 +1,4 @@
-import Header from "../../components/Header/header.jsx";
+import Header from "../../components/Header/Header.jsx";
 import TechSkills from "../../components/Resume/techSkills.jsx";
 import TechProjects from "../../components/Resume/techProjects.jsx";
 import TechEducation from "../../components/Resume/techEducation.jsx";

@@ -1,15 +1,5 @@
-import ProfilePix from "./profilePix.jsx";
-import "./header.css";
-
-export default function Header() {
-  return (
-    <header>
-      <ProfilePix />
-      <div id="text-content">
-        <div id="name">
-          <h1>Kevin VanDonkelaar</h1>
-          <h2>Web Developer</h2>
-        </div>
+export default function ContactInfo() {
+    return (
         <div id="subscript">
           (864) 640-9241 | kvdcre8r@gmail.com | St. Louis, MO |
           <br />
@@ -22,7 +12,5 @@ export default function Header() {
             kevin-vandonkelaar-personal-website.github.io/kvdcre8r
           </a>
         </div>
-      </div>
-    </header>
-  );
-}
+    );
+  }

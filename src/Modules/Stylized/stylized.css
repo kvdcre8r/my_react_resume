@@ -8,10 +8,9 @@
   border: 0.2em solid white;
   border-radius: .5em;
 
-
-
   header {
     border-bottom: 0.1em solid white;
+    font-size: .9em;
 
     #coder-profile-pic {
       width: 5em;
