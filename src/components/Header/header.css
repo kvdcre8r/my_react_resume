@@ -33,13 +33,8 @@ header {
           padding: 0.2em;
         }
 
-        a:nth-child(2) {
-            border: .1em solid white;
-            border-radius: .2em;
-        }
-
-        a:nth-child(3) {
-            border: .1em solid white;
+        .fa {
+            border: .1em solid ivory;
             border-radius: .2em;
         }
 

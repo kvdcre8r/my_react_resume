@@ -12,6 +12,13 @@
         text-decoration: none;
     }
 
+    .btn-home {
+        span {
+            font-family: "open-sans";
+            margin-left: .5em;
+        }
+    }
+
     a:hover,
     .dropdown:hover .dropbtn {
         background-color: black;
@@ -23,6 +30,10 @@
         border-radius: .2em;
     }
 
+    i {
+        font-size: 1.5em;
+    }
+
     .dropdown:hover .dropbtn {
         border-bottom: none;
         border-top-left-radius: .2em;
@@ -30,7 +41,7 @@
     }
 
     .dropdown {
-        float: left;
+        float: right;
         overflow: hidden;
 
         .dropbtn {
@@ -46,6 +57,7 @@
         .dropdown-content {
             display: none;
             position: absolute;
+            right: 0;
             background-color: #000000e6;
             border: 0.1em solid whitesmoke;
             border-radius: 0.2em;
@@ -60,11 +72,11 @@
                 border: 0.1em solid rgba(0, 0, 0, 0);
                 text-decoration: none;
                 display: block;
-                text-align: left;
+                text-align: right;
             }
 
             a:nth-child(1) {
-                font-family: Arial, Helvetica, sans-serif;
+                font-family: 'open-sans';
             }
 
             a:nth-child(2) {
