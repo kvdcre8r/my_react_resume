@@ -29,7 +29,6 @@
     }
   }
 
-
   #text-content {
     padding-left: 1em;
     flex-grow: 1;
@@ -57,7 +56,6 @@
       font-size: 1em;
     }
   }
-
 
   #home-content {
     background-image: url("../../assets/landscape-blue-pixels.jpeg");

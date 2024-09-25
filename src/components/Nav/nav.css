@@ -5,50 +5,46 @@
     a {
         float: left;
         font-size: 1em;
-        color: ivory;
+        color: white;
         text-align: center;
         padding: .5em;
         margin: 0.6em;
         text-decoration: none;
     }
 
-    .btn-home {
-        span {
-            font-family: "open-sans";
-            margin-left: .5em;
-        }
-    }
-
-    a:hover,
-    .dropdown:hover .dropbtn {
-        background-color: black;
-        border: .1em solid whitesmoke;
-        margin: .5em .5em 0 .5em;
-    }
-
     a:hover {
         border-radius: .2em;
+        background-color: black;
+        border: .1em solid white;
+        margin: .5em .5em .55em .5em;
     }
 
     i {
         font-size: 1.5em;
+
+        span {
+            font-family: "open-sans";
+            margin-left: .6em;
+        }
     }
 
     .dropdown:hover .dropbtn {
+        background-color: black;
+        border: .1em solid white;
+        margin: .5em .5em 0 .5em;
         border-bottom: none;
         border-top-left-radius: .2em;
-        border-top-right-radius: .2em;
-    }
+        border-top-right-radius: .2em;    }
 
     .dropdown {
-        float: right;
+        float: left;
         overflow: hidden;
 
         .dropbtn {
             font-size: 1em;
             border: none;
             outline: none;
-            color: ivory;
+            color: white;
             background-color: inherit;
             padding: .5em;
             margin: 0.6em;
@@ -57,9 +53,8 @@
         .dropdown-content {
             display: none;
             position: absolute;
-            right: 0;
             background-color: #000000e6;
-            border: 0.1em solid whitesmoke;
+            border: 0.1em solid white;
             border-radius: 0.2em;
             min-width: 10em;
             box-shadow: 0em .5em 1em 0em rgba(0, 0, 0, 0.2);
@@ -67,12 +62,12 @@
 
             a {
                 float: none;
-                color: ivory;
+                color: white;
                 margin: 1em;
                 border: 0.1em solid rgba(0, 0, 0, 0);
                 text-decoration: none;
                 display: block;
-                text-align: right;
+                text-align: left;
             }
 
             a:nth-child(1) {
@@ -90,11 +85,14 @@
             a:hover {
                 background-color: none;
                 margin: 1em;
-                border: 0.1em solid ivory;
+                border: 0.1em solid white;
             }
         }
     }
-
+    .dropdown-content {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
     .dropdown:hover .dropdown-content {
         display: block;
     }
