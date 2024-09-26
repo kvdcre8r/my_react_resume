@@ -1,5 +1,7 @@
 header {
     padding: 2rem;
+    border-top-left-radius: .5em;
+    border-top-right-radius: .5em;
     border-bottom: 0.2em solid white;
     display: flex;
 

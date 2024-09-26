@@ -1,6 +1,15 @@
+nav {
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    position: sticky;
+}
+
 .navbar {
     overflow: hidden;
     background-color: rgb(55, 55, 55);
+    font-size: .8em;
 
     a {
         float: left;
@@ -28,14 +37,6 @@
         }
     }
 
-    .dropdown:hover .dropbtn {
-        background-color: black;
-        border: .1em solid white;
-        margin: .5em .5em 0 .5em;
-        border-bottom: none;
-        border-top-left-radius: .2em;
-        border-top-right-radius: .2em;    }
-
     .dropdown {
         float: left;
         overflow: hidden;
@@ -53,6 +54,8 @@
         .dropdown-content {
             display: none;
             position: absolute;
+            max-width: 100%;
+            box-sizing: border-box;
             background-color: #000000e6;
             border: 0.1em solid white;
             border-radius: 0.2em;
@@ -61,6 +64,7 @@
             z-index: 1;
 
             a {
+                font-size: 1.5em;
                 float: none;
                 color: white;
                 margin: 1em;
@@ -70,16 +74,34 @@
                 text-align: left;
             }
 
-            a:nth-child(1) {
+            #btn-professional {
                 font-family: 'open-sans';
             }
 
-            a:nth-child(2) {
+            #btn-professional:hover {
+                color: rgb(62, 92, 126);
+                background-color: ivory;
+                border: 0.1em solid rgb(62, 92, 126);
+            }
+
+            #btn-mainframe {
                 font-family: 'spyagency';
             }
 
-            a:nth-child(3) {
+            #btn-mainframe:hover {
+                color: greenyellow;
+                background-color: rgb(12, 33, 33);
+                border: 0.1em solid greenyellow;
+            }
+
+            #btn-superhero {
                 font-family: 'champion';
+            }
+
+            #btn-superhero:hover {
+                color: white;
+                border: 0.1em solid rgb(194, 34, 34);
+                background-color: darkblue;
             }
 
             a:hover {
@@ -89,10 +111,16 @@
             }
         }
     }
-    .dropdown-content {
-        max-width: 100%;
-        box-sizing: border-box;
+
+    .dropdown:hover .dropbtn {
+        background-color: black;
+        border: .1em solid white;
+        margin: .5em .5em 0 .5em;
+        border-bottom: none;
+        border-top-left-radius: .2em;
+        border-top-right-radius: .2em;
     }
+
     .dropdown:hover .dropdown-content {
         display: block;
     }

@@ -1,6 +1,6 @@
-export function HomeRight() {
+export function SiteFeatures() {
   return (
-    <section id="home-right">
+    <section id="site-features">
       <article>
         <h2>Features</h2>
         <ul>

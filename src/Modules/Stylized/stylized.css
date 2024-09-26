@@ -19,7 +19,8 @@
       border-radius: .5em;
     }
 
-    #profile-pic, #comic-profile-pic {
+    #profile-pic,
+    #comic-profile-pic {
       width: 0em;
       height: 0em;
     }
@@ -32,7 +33,6 @@
 
     #subscript {
       font-family: monospace;
-      font-size: 1.25em;
       color: greenyellow;
       text-shadow: none;
     }
