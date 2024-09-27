@@ -1,0 +1,34 @@
+.site-tour {
+
+    a {
+        font-size: 1em;
+        color: white;
+        text-align: center;
+        padding: .5em;
+        margin: 0.6em;
+        text-decoration: none;
+    }
+
+    i {
+        font-size: 1.5em;
+
+        span {
+            font-family: 'open-sans';
+            margin-left: .6em;
+        }
+    }
+
+    .site-tour-content {
+        padding: 5em;
+
+        .site-tour-nav {
+            display: flex;
+            padding-left: 1em;
+
+            a:hover {
+                color: gold;
+                margin: .5em .5em .55em .5em;
+            }
+        }
+    }
+}

@@ -125,3 +125,19 @@ nav {
         display: block;
     }
 }
+
+@font-face {
+    font-family: "spyagency";
+    src: url(../../assets/spyagency.ttf);
+  }
+  
+  @font-face {
+    font-family: "champion";
+    src: url(../../assets/champion.ttf);
+  }
+  
+  @font-face {
+    font-family: "open-sans";
+    src: url(../../assets/OpenSans.ttf);
+  }
+  
