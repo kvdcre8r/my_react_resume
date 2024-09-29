@@ -25,7 +25,6 @@
 
     h1 {
       font-size: 3.6em;
-      font-family: "josefin-sans";
     }
   }
 
@@ -34,6 +33,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-position-y:top;
     background-color: #1d4483;
     padding: 1rem 2rem;
     display: flex;
@@ -44,11 +44,15 @@
       .site-intro {
 
         #greeting {
+          color: rgb(0, 0, 105);
+          text-shadow: -0.03em 0 white, 0 0.03em white, 0.03em 0 white,
+          0 -0.03em white;
           font-size: 2.75em;
           font-family: "josefin-sans";
         }
 
         #desc {
+          color: white;
           font-size: 1.25em;
           padding: 1em;
         }
@@ -65,7 +69,6 @@
     }
 
     section {
-      margin-top: 0.75em;
 
       article {
         text-align: left;

@@ -1,16 +1,12 @@
 .site-tour {
+    padding-top: 1em;
 
-    a {
-        font-size: 1em;
+    i {
+        font-size: 2em;
         color: white;
         text-align: center;
         padding: .5em;
-        margin: 0.6em;
         text-decoration: none;
-    }
-
-    i {
-        font-size: 1.5em;
 
         span {
             font-family: 'open-sans';
@@ -18,17 +14,98 @@
         }
     }
 
+    .fa-route {
+        color: rgb(0, 0, 105);
+        text-shadow: -0.05em 0 white, 0 0.05em white, 0.05em 0 white,
+            0 -0.05em white;
+
+    }
+
     .site-tour-content {
-        padding: 5em;
 
         .site-tour-nav {
             display: flex;
             padding-left: 1em;
+            padding-bottom: 1em;
+            font-size: .8em;
+            text-shadow: none;
+        }
 
-            a:hover {
-                color: gold;
-                margin: .5em .5em .55em .5em;
+        article {
+            font-size: .8em;
+
+            i {
+                font-size: 6.5em;
+            } 
+
+            h2 {
+                margin: .8em;
             }
         }
+
+        .fa-street-view {
+            color: ivory;
+        }
+
+        .fa-street-view:hover {
+            background-color: ivory;
+            color: rgb(0, 0, 105);
+            border-radius: 1em;
+        }
+
+        .tour-home {
+            border: .2em solid ivory;
+            display: flex;
+
+        }
+
+        .fa-wand-magic-sparkles {
+            color: lightgreen;
+        }
+
+        .fa-wand-magic-sparkles:hover {
+            background-color: lightgreen;
+            color: rgb(0, 0, 105);
+            border-radius: 1em;
+        }
+
+        .slide-themes {
+            display: flex;
+            color: lightgreen;
+            border: .2em solid lightgreen;
+        }
+
+        .fa-gear {
+            color: darkorange;
+        }
+
+        .fa-gear:hover {
+            background-color: darkorange;
+            color: rgb(0, 0, 105);
+            border-radius: 1em;
+        }
+
+        .slide-settings {
+            display: flex;
+            color: darkorange;
+            border: .2em solid darkorange;
+        }
+
+        .fa-sliders {
+            color: gold;
+        }
+
+        .fa-sliders:hover {
+            background-color: gold;
+            color: rgb(0, 0, 105);
+            border-radius: 1em;
+        }
+
+        .slide-customization {
+            display: flex;
+            color: gold;
+            border: .2em solid gold;
+        }
+
     }
-}
+    }
