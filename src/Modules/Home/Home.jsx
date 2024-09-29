@@ -1,6 +1,6 @@
-import Header from "../../components/Header/Header.jsx";
+import Header from "../Header/Header.jsx";
 import { SiteIntro } from "./siteIntro.jsx";
-import { SiteTour } from "./SiteTour/indexSiteTour.jsx";
+import { SiteTour } from "./SiteTour/SiteTour.jsx";
 import { SiteFeatures } from "./siteFeatures.jsx";
 import "./home.css";
 

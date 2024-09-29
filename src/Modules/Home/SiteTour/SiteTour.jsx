@@ -1,10 +1,10 @@
 import { Routes, Route } from "react-router-dom";
-import SiteTourNav from "./siteTourNav.jsx";
-import { TourHome } from "./tourHome.jsx";
+import NavSiteTour from "./navSiteTour.jsx";
+import { SlideTourGuide } from "./slideTourGuide.jsx";
 import { SlideCustomization } from "./slideCustomization.jsx";
 import { SlideThemes } from "./slideThemes.jsx";
 import { SlideSettings } from "./slideSettings.jsx";
-import "./indexSiteTour.css";
+import "./SiteTour.css";
 
 export function SiteTour() {
   return (
@@ -13,9 +13,9 @@ export function SiteTour() {
         <span>Site Tour</span>
       </i>
       <article className="site-tour-content">
-        <SiteTourNav />
+        <NavSiteTour />
         <Routes>
-          <Route path="/" element={<TourHome />} />
+          <Route path="/" element={<SlideTourGuide />} />
           <Route path="/customization/:id" element={<SlideCustomization />} />
           <Route path="/themes/:id" element={<SlideThemes />} />
           <Route path="/settings/:id" element={<SlideSettings />} />

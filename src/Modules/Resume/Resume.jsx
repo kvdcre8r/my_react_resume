@@ -1,7 +1,7 @@
-import TechSkills from "./techSkills.jsx";
-import TechProjects from "./techProjects.jsx";
-import TechEducation from "./techEducation.jsx";
-import Experience from "./experience.jsx";
+import TechSkills from "./resSkills.jsx";
+import TechProjects from "./resProjects.jsx";
+import TechEducation from "./resEducation.jsx";
+import Experience from "./resExperience.jsx";
 
 export default function ResumeContent() {
   return (

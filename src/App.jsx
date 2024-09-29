@@ -1,9 +1,9 @@
 import { Routes, Route } from "react-router-dom";
-import Nav from "./components/Nav/Nav.jsx";
+import Nav from "./Modules/Nav/Nav.jsx";
 import { Home } from "./Modules/Home/Home.jsx";
-import { Classic } from "./Modules/Classic/classic.jsx";
-import { Stylized } from "./Modules/Stylized/stylized.jsx";
-import { Superhero } from "./Modules/Superhero/superhero.jsx";
+import { Professional } from "./Modules/ThemeProfessional/professional.jsx";
+import { Mainframe } from "./Modules/ThemeMainframe/mainframe.jsx";
+import { Superhero } from "./Modules/ThemeSuperhero/superhero.jsx";
 import "./App.css";
 
 function App() {
@@ -12,8 +12,8 @@ function App() {
       <Nav />
       <Routes>
         <Route path="/*" element={<Home />} />
-        <Route path="/Classic" element={<Classic />} />
-        <Route path="/Stylized" element={<Stylized />} />
+        <Route path="/Professional" element={<Professional />} />
+        <Route path="/Mainframe" element={<Mainframe />} />
         <Route path="/Superhero" element={<Superhero />} />
       </Routes>
     </div>

@@ -10,10 +10,10 @@ export default function btnMenu() {
           </i>
         </button>
         <div className="dropdown-content">
-          <Link to="/classic" id="btn-professional">
+          <Link to="/professional" id="btn-professional">
             <strong>Professional</strong>
           </Link>
-          <Link to="/stylized" id="btn-mainframe">MAINFRAME</Link>
+          <Link to="/mainframe" id="btn-mainframe">MAINFRAME</Link>
           <Link to="/superhero" id="btn-superhero">
             <strong>S u p e r h e r o</strong>
           </Link>

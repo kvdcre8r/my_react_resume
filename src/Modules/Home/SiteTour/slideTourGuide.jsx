@@ -1,6 +1,6 @@
-export function TourHome() {
+export function SlideTourGuide() {
   return (
-    <article className="tour-home">
+    <article className="slide-tour-guide">
       <i className="fa-solid fa-street-view"></i>
       <h2>
         This section assists you in navigating the site's various features and

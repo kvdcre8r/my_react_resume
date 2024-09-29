@@ -1,8 +1,10 @@
-# React + Vite
+# Kevin VanDonkelaar's Live Resume
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## To-do List
+- responsive behavior
+- restructure files
+- change up format on some of the themes
+- add dropdown for different job titles and make it functional
+- add more hoverovers and expanding sections
+- light and dark mode?
+- font sizer
