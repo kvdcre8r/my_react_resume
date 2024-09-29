@@ -76,19 +76,19 @@
         }
 
         .fa-gear {
-            color: darkorange;
+            color: rgb(255, 145, 0);
         }
 
         .fa-gear:hover {
-            background-color: darkorange;
+            background-color: rgb(255, 145, 0);
             color: rgb(0, 0, 105);
             border-radius: 1em;
         }
 
         .slide-settings {
             display: flex;
-            color: darkorange;
-            border: .2em solid darkorange;
+            color: rgb(255, 145, 0);
+            border: .2em solid rgb(255, 145, 0);
         }
 
         .fa-sliders {
