@@ -24,11 +24,22 @@
     .site-tour-content {
 
         .nav-site-tour {
-            display: flex;
+            width: 100%;
             padding-left: 1em;
             padding-bottom: 1em;
             font-size: .8em;
             text-shadow: none;
+        }
+
+        i {
+            display: block;
+            float: left;
+        }
+
+        .nav-site-tour::after {
+            display: block;
+            clear: both;
+            content: "";
         }
 
         article {
@@ -36,7 +47,7 @@
 
             i {
                 font-size: 6.5em;
-            } 
+            }
 
             h2 {
                 margin: .8em;
@@ -108,4 +119,4 @@
         }
 
     }
-    }
+}

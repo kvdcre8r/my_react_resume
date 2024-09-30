@@ -1,48 +1,58 @@
 header {
-    padding: 2rem;
-    border-top-left-radius: .5em;
-    border-top-right-radius: .5em;
-    border-bottom: 0.2em solid white;
-    display: flex;
+  padding: 2rem;
+  border-top-left-radius: .5em;
+  border-top-right-radius: .5em;
+  border-bottom: 0.2em solid white;
+  display: flex;
 
-    #text-content {
-      padding-left: 1em;
-      flex-grow: 1;
+  .text-content {
+    padding-left: 1em;
+    flex-grow: 1;
 
-      #name {
-        display: flex;
-        grid-template-columns: 1fr 2fr 1fr;
-        align-items: baseline;
+    #name {
+      display: flex;
+      align-items: baseline;
 
-        h1 {
-          flex-grow: 1;
-        }
-
-        h2 {
-          text-align: right;
-          border: none;
-        }
+      h1 {
+        flex-grow: 1;
+        font-size: 3.5em;
       }
 
-      #subscript {
-        margin-top: 0.25em;
-        font-size: 1.2em;
+      h2 {
+        font-size: 1.75em;
+        text-align: right;
+        border: 1px solid ivory;
+        border-radius: 5px;
+        padding: .2em;
+      }
+    }
 
-        a {
-          color: inherit;
-          text-decoration: none;
-          margin: .2em;
-          padding: 0.2em;
-        }
+    #subscript {
+      font-size: 1.2em;
+      display: flex;
+      align-items: center;
 
-        .fa {
-            border: .1em solid ivory;
-            border-radius: .2em;
-        }
+      p {
+        flex-grow: 1;
+      }
 
-        a:hover {
-          color: gold;
-        }
+      a {
+        color: inherit;
+        text-decoration: none;
+        margin: .2em;
+        padding: 0.2em;
+        border: 1px solid ivory;
+        border-radius: 5px;
+      }
+
+      a:nth-child(4) {
+        font-size: .85em;
+      }
+
+      a:hover {
+        color: gold;
+        border: .1em solid gold;
       }
     }
   }
+}

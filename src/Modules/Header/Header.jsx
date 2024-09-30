@@ -7,7 +7,7 @@ export default function Header() {
   return (
     <header>
       <ProfilePix />
-      <div id="text-content">
+      <div className="text-content">
         <Name />
         <ContactInfo />
       </div>

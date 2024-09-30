@@ -10,8 +10,8 @@
   Header {
 
     #profile-pic {
-      width: 6em;
-      height: 6em;
+      width: 7em;
+      height: 7em;
       border: .1em solid ivory;
       background-color: #1d4483;
       border-radius: .5em;
@@ -23,8 +23,11 @@
       height: 0em;
     }
 
-    h1 {
-      font-size: 3.6em;
+    .text-content {
+
+      h2 {
+        font-size: 2em;
+      }
     }
   }
 
@@ -33,12 +36,13 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-position-y:top;
+    background-position-y: top;
     background-color: #1d4483;
     padding: 1rem 2rem;
     display: flex;
 
     .home-left {
+      width: 70%;
       padding: 1em 1em;
 
       .site-intro {
@@ -46,7 +50,7 @@
         #greeting {
           color: rgb(0, 0, 105);
           text-shadow: -0.03em 0 white, 0 0.03em white, 0.03em 0 white,
-          0 -0.03em white;
+            0 -0.03em white;
           font-size: 2.75em;
           font-family: "josefin-sans";
         }
@@ -60,7 +64,7 @@
     }
 
     .home-right {
-      width: 100%;
+      width: 30%;
       padding: 1em;
 
       h2 {
@@ -110,4 +114,34 @@
 @font-face {
   font-family: "josefin-sans";
   src: url(../../assets/JosefinSans.ttf);
+}
+
+@media screen and (max-width: 1024px) {
+  Header {
+    padding: 1rem;
+
+    .profileImgs {
+    #profile-pic {
+      width: 5.5em;
+      height: 5.5em;
+      }}
+
+    .text-content {
+
+      #name {
+
+        h1 {
+          font-size: 2.6em;
+        }
+
+        h2 {
+          font-size: 1.3em;
+        }
+      }
+
+      #subscript {
+        font-size: .9em;
+      }
+    }
+  }
 }
