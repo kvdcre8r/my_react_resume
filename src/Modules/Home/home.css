@@ -27,6 +27,11 @@
 
       h2 {
         font-size: 2em;
+        background-color: #1d4483;
+      }
+
+      a {
+        background-color: #1d4483;
       }
     }
   }
@@ -116,32 +121,27 @@
   src: url(../../assets/JosefinSans.ttf);
 }
 
-@media screen and (max-width: 1024px) {
-  Header {
-    padding: 1rem;
-
-    .profileImgs {
-    #profile-pic {
-      width: 5.5em;
-      height: 5.5em;
-      }}
-
-    .text-content {
-
-      #name {
-
-        h1 {
-          font-size: 2.6em;
-        }
-
-        h2 {
-          font-size: 1.3em;
-        }
+@media screen and (max-width: 850px) {
+  .home {
+    Header {
+      #profile-pic {
+        width: 5em;
+        height: 5em;
       }
 
-      #subscript {
-        font-size: .9em;
+      .text-content {
+        h2 {
+          font-size: 1.5em;
+        }
+      }
+    }
+
+    .home-content {
+        display: block;
+      .home-left, .home-right {
+        width: 100%;
       }
     }
   }
+  
 }

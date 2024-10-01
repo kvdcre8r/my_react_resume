@@ -71,51 +71,51 @@
         }
 
         .fa-wand-magic-sparkles {
-            color: lightgreen;
+            color: gold;
         }
 
         .fa-wand-magic-sparkles:hover {
-            background-color: lightgreen;
+            background-color: gold;
             color: rgb(0, 0, 105);
             border-radius: 1em;
         }
 
         .slide-themes {
             display: flex;
-            color: lightgreen;
-            border: .2em solid lightgreen;
+            color: gold;
+            border: .2em solid gold;
         }
 
         .fa-gear {
-            color: rgb(255, 145, 0);
+            color:turquoise;
         }
 
         .fa-gear:hover {
-            background-color: rgb(255, 145, 0);
+            background-color: turquoise;
             color: rgb(0, 0, 105);
             border-radius: 1em;
         }
 
         .slide-settings {
             display: flex;
-            color: rgb(255, 145, 0);
-            border: .2em solid rgb(255, 145, 0);
+            color: turquoise;
+            border: .2em solid turquoise;
         }
 
         .fa-sliders {
-            color: gold;
+            color: lightgreen;
         }
 
         .fa-sliders:hover {
-            background-color: gold;
+            background-color: lightgreen;
             color: rgb(0, 0, 105);
             border-radius: 1em;
         }
 
         .slide-customization {
             display: flex;
-            color: gold;
-            border: .2em solid gold;
+            color: lightgreen;
+            border: .2em solid lightgreen;
         }
 
     }
