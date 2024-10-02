@@ -7,10 +7,11 @@
     0 -0.05em greenyellow;
   border: 0.2em solid white;
   border-radius: .5em;
+  font-size: 1em;
 
-  header {
+  .header {
     border-bottom: 0.1em solid white;
-    font-size: .9em;
+    display: block;
 
     #coder-profile-pic {
       width: 5em;
@@ -46,7 +47,7 @@
     article {
       background-color: black;
       font-family: monospace;
-      color:coral;
+      color:greenyellow;
       text-shadow: none;
 
       h3 {
