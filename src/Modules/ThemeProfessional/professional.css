@@ -4,25 +4,70 @@
   border: 0.2em solid rgb(62, 92, 126);
 
   header {
-    padding-bottom: 1em;
+    padding: 2em 2em 2em 1em;
+    padding-bottom: 0em;
     border-bottom: none;
 
     #profile-pic,
     #comic-profile-pic,
     #coder-profile-pic {
-      width: 0em;
+      display: none;
     }
 
-    #text-content {
-      padding-left: 0em;
+    .text-content {
+      .my-title {
+        display: flex;
+        align-items: baseline;
+        .name {
+          font-size: 1.5em;
+          flex-grow: 1;
+        }
+      }
+
+      .my-links {
+        display: flex;
+        align-items: end;
+
+        a {
+          font-size: 1.4em;
+          color: inherit;
+          text-decoration: none;
+          padding-right: 0.2em;
+        }
+
+        a:nth-child(1) {
+          font-size: 1.3em;
+          text-decoration: underline;
+        }
+
+        .fa {
+          padding: 0em .2em;
+        }
+
+        a:hover {
+          color: gold;
+          border: 1px solid gold;
+        }
+      }
     }
   }
 
-  h2 {
-    border-bottom: 0.1em solid rgb(47, 66, 87);
+  .resume-content {
+    h2 {
+      border-bottom: 0.1em solid rgb(47, 66, 87);
+    }
+
+    .res-summary {
+      h2 {
+        font-size: 1.2em;
+        border-bottom: none;
+        padding-bottom: .5em;
+      }
+    }
+
+    article {
+      background-color: ivory;
+    }
   }
 
-  article {
-    background-color: ivory;
-  }
 }

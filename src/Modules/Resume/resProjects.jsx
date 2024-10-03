@@ -8,10 +8,8 @@ export default function TechProjects() {
           github.com/Kevin-VanDonkelaar-Personal-Website/kvdcre8r
         </h3>
         <p>
-          <em>
             Personal brand website demonstrating the knowledge and skills
             necessary for success in web development and design
-          </em>
         </p>
         <ul>
           <li>
@@ -31,10 +29,8 @@ export default function TechProjects() {
           THE DAD LOCKER | April ‘24 | github.com/kvdcre8r/kvd_fsa_capstone
         </h3>
         <p>
-          <em>
             An e-commerce website mockup allowing users to browse, sort, and
             checkout items
-          </em>
         </p>
         <ul>
           <li>

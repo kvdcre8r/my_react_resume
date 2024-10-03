@@ -4,14 +4,46 @@ export default function Experience() {
       <h2>Relevant Experience</h2>
       <article>
         <h3>
-          GENERAL MANAGER | SOS Thrift Store | Greenville, SC Apr ‘17 - Dec ‘17
+          FULFILLMENT CENTER ASSOCIATE | Amazon | Saint Peters, MO | 2021 - 2024
         </h3>
         <p>
-          <em>
-            Resolved daily high-stress situations while managing a Non-Profit
-            Organization (NPO). Handled client relations, customer concerns,
-            employee conflict, and product management
-          </em>
+          Worked efficiently in a fast-paced environment as part of a diverse
+          team meeting customer needs
+        </p>
+        <ul>
+          <li>
+            Prepared items received into facility to be processed for online
+            ordering
+          </li>
+          <li>
+            Prepared items received into facility to be processed for online
+            ordering
+          </li>
+        </ul>
+        <h3>
+          FREELANCE GRAPHICS PRODUCER | Greenville, SC & O’Fallon, MO | 2017 - PRESENT
+        </h3>
+        <p>
+          Produces visuals and graphics for performers and audiences during
+          church services
+        </p>
+        <ul>
+          <li>
+            Uses MacOS programs to design animated slides for use during
+            production
+          </li>
+          <li>
+            Projects song lyrics and message points on multiple screens
+            throughout the auditorium
+          </li>
+        </ul>
+        <h3>
+          GENERAL MANAGER | SOS Thrift Store | Greenville, SC | 2017
+        </h3>
+        <p>
+          Resolved daily high-stress situations while managing a Non-Profit
+          Organization (NPO). Handled client relations, customer concerns,
+          employee conflict, and product management
         </p>
         <ul>
           <li>
@@ -33,45 +65,6 @@ export default function Experience() {
           <li>
             Drove production and sales to maintain company's charitable
             objectives and NPO status
-          </li>
-        </ul>
-        <h3>
-          ASSISTANT MANAGER | 2nd & Charles | Greenville, SC Oct ‘13 - Mar ‘17
-        </h3>
-        <p>
-          <em>
-            Led merchandising projects and managed buying and selling of used
-            products at a secondhand bookstore
-          </em>
-        </p>
-        <ul>
-          <li>
-            Solely developed a unique merchandising template that became a
-            corporate-wide standard
-          </li>
-          <li>
-            Set pricing policies and led multiple instructional meetings on
-            buying and selling procedures
-          </li>
-        </ul>
-        <h3>
-          GRAPHICS TEAM VOLUNTEER | multiple local churches | Greenville, SC &
-          O’Fallon, MO
-        </h3>
-        <p>
-          <em>
-            Produced visuals and graphics for performers and audiences during
-            church services
-          </em>
-        </p>
-        <ul>
-          <li>
-            Used MacOS programs to design animated slides for use during
-            production
-          </li>
-          <li>
-            Projected song lyrics and message points on multiple screens
-            throughout the auditorium
           </li>
         </ul>
       </article>

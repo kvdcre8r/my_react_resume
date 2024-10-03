@@ -4,15 +4,12 @@ export default function TechEducation() {
       <h2>Technical Education</h2>
       <article>
         <h3>
-          WEB DEVELOPMENT BOOTCAMP GRADUATE | Fullstack Academy | Aug ‘23 - Apr
-          ‘24
+          WEB DEVELOPMENT BOOTCAMP GRADUATE | Fullstack Academy | 2023 - 2024
         </h3>
         <p>
-          <em>
             Immersive software coding bootcamp focused on mastering HTML and
             JavaScript foundations, front- and back-end development, and
             databases
-          </em>
         </p>
         <ul>
           <li>
