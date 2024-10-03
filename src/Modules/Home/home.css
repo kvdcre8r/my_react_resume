@@ -12,7 +12,6 @@
     border-top-left-radius: .5em;
     border-top-right-radius: .5em;
     border-bottom: 0.2em solid white;
-    display: flex;
 
     #profile-pic {
       width: 7em;
@@ -342,5 +341,25 @@
         }
       }
     }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  header {
+    display: block;
+    font-size: .8em;
+    text-align: center;
+
+    .text-content {
+      .career {
+        justify-content: center;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .home {
+    font-size: .8em;
   }
 }

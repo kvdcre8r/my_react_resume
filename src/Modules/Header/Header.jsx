@@ -3,7 +3,6 @@ import Name from "./name.jsx";
 import JobTitle from "./jobTitle.jsx";
 import ContactInfo from "./contactInfo.jsx";
 import "./header.css";
-
 export default function Header() {
   return (
     <header>
