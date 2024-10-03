@@ -16,7 +16,7 @@
 
     .text-content {
       .my-title {
-        display: flex;
+        display: block;
         align-items: baseline;
         .name {
           font-size: 1.5em;
