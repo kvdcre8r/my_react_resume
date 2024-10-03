@@ -1,5 +1,5 @@
-import Header from "../Header/Header.jsx";
-import ResumeContent from "../Resume/Resume.jsx";
+import Header from "./Modules/Header/Header.jsx";
+import ResumeContent from "./Modules/Resume/Resume.jsx";
 import "./professional.css";
 
 export function Professional() {
