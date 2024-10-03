@@ -58,6 +58,7 @@
 
       .my-links {
         display: flex;
+        align-items: end;
 
         a {
           font-size: 1.7em;
@@ -67,7 +68,7 @@
           padding: 0.2em;
         }
 
-        a:nth-child(3) {
+        a:nth-child(1) {
           font-size: 1.3em;
           text-decoration: underline;
         }
@@ -196,10 +197,6 @@
           a {
             font-size: 1.5em;
           }
-
-          a:nth-child(3) {
-            font-size: 1.1em;
-          }
         }
       }
     }
@@ -248,11 +245,13 @@
         .career {
           background-color: #275db3;
           border: none;
-          display: block;
+          display: flex;
+          align-items: center;
+          font-size: .9em;
 
           .job-title {
             text-align: left;
-            font-size: 1.25em;
+            font-size: .9em;
           }
         }
       }
@@ -290,7 +289,7 @@
 
         .career {
           .job-title {
-            font-size: 1em;
+            font-size: .75em;
           }
         }
 
@@ -299,9 +298,6 @@
             font-size: 1.3em;
           }
 
-          a:nth-child(3) {
-            font-size: 1em;
-          }
         }
       }
     }
