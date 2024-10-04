@@ -1,9 +1,12 @@
-export default function TechSkills() {
+export default function ResSkills() {
   return (
-    <section>
+    <section className="res-skills">
       <h2>Technical Skills</h2>
       <article>
-        <p>Proficient: HTML5, CSS3, JavaScript, React, Git, Responsive Design</p>
+        <h3 className="special">CSS SPECIALIST</h3>
+        <p>
+          Proficient: HTML5, CSS3, JavaScript, React, Git, Responsive Design
+        </p>
         <p>Knowledgeable: Node.js, Express, SQL</p>
       </article>
     </section>

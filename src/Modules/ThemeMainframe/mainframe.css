@@ -1,66 +1,120 @@
 .mainframe {
-  color: black;
-  background-color: rgb(12, 33, 33);
-  font-family: spyagency;
+  background-color: black;
+  font-family: monospace;
   font-size: .8rem;
-  text-shadow: -0.05em 0 greenyellow, 0 0.05em greenyellow, 0.05em 0 greenyellow,
-    0 -0.05em greenyellow;
-  border: 0.2em solid white;
+  border: 0.2em solid greenyellow;
   border-radius: .5em;
   font-size: 1em;
 
   .header {
-    border-bottom: 0.1em solid white;
-    display: block;
+    padding: 2em 2em 0em 2em;
+    display: flex;
 
     #coder-profile-pic {
-      width: 5em;
+      width: 8em;
       height: max-content;
-      border: .1em solid greenyellow;
-      border-radius: .5em;
     }
 
     #profile-pic,
     #comic-profile-pic {
-      width: 0em;
-      height: 0em;
+      display: none;
     }
 
-    #name {
-      h1 {
-        font-size: 4em;
+    .text-content {
+      padding-left: 1em;
+
+      .my-title {
+        font-family: spyagency;
+        color: black;
+        text-shadow: -0.05em 0 ivory, 0 0.05em ivory, 0.05em 0 ivory,
+          0 -0.05em ivory;
+
+        .name {
+          font-size: 1.8em;
+        }
+
+        .job-title {
+          font-size: 1.5em;
+          padding: 2px;
+        }
       }
-    }
 
-    #subscript {
-      font-family: monospace;
-      color: greenyellow;
-      text-shadow: none;
+      .contact-links {
+        font-family: monospace;
+        color: greenyellow;
+        text-shadow: none;
+        padding: 1em;
+
+        .contact-info {
+          font-size: 1.5em;
+        }
+
+        .my-links-text {
+          font-size: 1.2em;
+          padding: 1em 0em;
+          display: flex;
+          align-items: end;
+
+          a {
+            font-size: 1.4em;
+            color: inherit;
+            padding-right: 0.6em;
+          }
+
+          a:hover {
+            color: white;
+          }
+        }
+      }
     }
   }
 
-  section {
-    h2 {
-      font-size: 1.2em;
+  .mainframe-resume {
+    padding: 2em;
+
+    .res-summary {
+      font-family: monospace;
+      color: rgb(255, 89, 0);
+      text-shadow: none;
+      border-top: 2px dotted white;
+      border-bottom: 2px dotted white;
+      padding: 1em 0em;
+      margin-bottom: 3em;
     }
 
-    article {
-      background-color: black;
-      font-family: monospace;
-      color:greenyellow;
-      text-shadow: none;
+    .res-skills {
+      padding-bottom: 1em;
+    }
 
-      h3 {
+    section {
+      padding-left: 1em;
+
+      h2 {
+        font-family: spyagency;
+        color: black;
+        text-shadow: -0.05em 0 ivory, 0 0.05em ivory, 0.05em 0 ivory,
+          0 -0.05em ivory;
         font-size: 1.5em;
+        padding-bottom: .5em;
       }
 
-      ul {
-        padding-bottom: 2em;
-      }
+      article {
+        background-color: black;
+        font-family: monospace;
+        color: greenyellow;
+        text-shadow: none;
+        padding-bottom: 1em;
 
-      p,
-      li {
-        font-size: 1.25em;
+        h3 {
+          color: rgb(255, 89, 0);
+          font-size: 1.6em;
+          padding-bottom: .5em;
+        }
+
+        p {
+          padding-left: 1em;
+          font-size: 1.25em;
+        }
       }
     }
   }
@@ -69,4 +123,34 @@
 @font-face {
   font-family: "spyagency";
   src: url(../../assets/spyagency.ttf);
+}
+
+@media screen and (max-width: 1024px) {
+  .mainframe {
+    font-size: .8em;
+    padding: 1em;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .mainframe {
+    padding: .8em;
+    .header .my-title {
+      font-size: .7em;
+    }
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .mainframe {
+    padding: .5em;
+    .header {
+      .my-title {
+        font-size: .6em;
+      }
+      .contact-links {
+        font-size: .8em;
+      }
+    }
+  }
 }

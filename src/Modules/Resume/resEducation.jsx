@@ -1,4 +1,4 @@
-export default function TechEducation() {
+export default function ResEducation() {
   return (
     <section>
       <h2>Technical Education</h2>

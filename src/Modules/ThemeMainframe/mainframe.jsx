@@ -1,8 +1,13 @@
 import ContactInfo from "../Header/contactInfo.jsx";
 import JobTitle from "../Header/jobTitle.jsx";
+import MyLinksText from "../Header/myLinksText.jsx";
 import Name from "../Header/name.jsx";
 import ProfilePix from "../Header/profilePix.jsx";
-import ResumeContent from "../Resume/Resume.jsx";
+import ResEducation from "../Resume/resEducation.jsx";
+import ResExperience from "../Resume/resExperience.jsx";
+import ResProjects from "../Resume/resProjects.jsx";
+import ResSkills from "../Resume/resSkills.jsx";
+import ResSummary from "../Resume/resSummary.jsx";
 import "./mainframe.css";
 
 export function Mainframe() {
@@ -10,11 +15,24 @@ export function Mainframe() {
     <main className="mainframe">
       <div className="header">
         <ProfilePix />
-        <Name />
-        <JobTitle />
-        <ContactInfo />
+        <div className="text-content">
+          <div className="my-title">
+            <Name />
+            <JobTitle />
+          </div>
+          <div className="contact-links">
+            <ContactInfo />
+            <MyLinksText />
+          </div>
+        </div>
       </div>
-      <ResumeContent />
+      <div className="mainframe-resume">
+        <ResSummary />
+        <ResSkills />
+        <ResProjects />
+        <ResEducation />
+        <ResExperience />
+      </div>
     </main>
   );
 }

@@ -1,4 +1,4 @@
-export default function TechProjects() {
+export default function ResProjects() {
   return (
     <section>
       <h2>Technical Projects</h2>

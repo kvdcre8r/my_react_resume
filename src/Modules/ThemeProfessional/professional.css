@@ -66,6 +66,10 @@
       }
     }
 
+    .res-skills .special {
+      display: none;
+    }
+
     article {
       background-color: ivory;
     }

@@ -1,4 +1,4 @@
-export default function Experience() {
+export default function ResExperience() {
   return (
     <section>
       <h2>Relevant Experience</h2>
