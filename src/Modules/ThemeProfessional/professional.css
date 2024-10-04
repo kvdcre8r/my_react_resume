@@ -4,7 +4,7 @@
   border: 0.2em solid rgb(62, 92, 126);
 
   header {
-    padding: 2em 2em 2em 1em;
+    padding: 2em;
     padding-bottom: 0em;
     border-bottom: none;
 
@@ -18,6 +18,7 @@
       .my-title {
         display: block;
         align-items: baseline;
+
         .name {
           font-size: 1.5em;
           flex-grow: 1;
@@ -69,5 +70,26 @@
       background-color: ivory;
     }
   }
+}
 
+
+
+@media screen and (max-width: 600px) {
+  .professional {
+    font-size: .8em;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  header {
+    display: block;
+    font-size: .8em;
+    text-align: left;
+
+    .text-content {
+      .career {
+        justify-content: center;
+      }
+    }
+  }
 }

@@ -1,4 +1,4 @@
-header {
+/* header {
   padding: 2rem;
   border-top-left-radius: .5em;
   border-top-right-radius: .5em;
@@ -56,69 +56,4 @@ header {
     }
   }
 }
-
-@media screen and (max-width: 1024px) {
-  Header {
-    padding: 1rem;
-
-    .profileImgs {
-      #profile-pic {
-        width: 5.5em;
-        height: 5.5em;
-      }
-    }
-
-    .text-content {
-
-      #name {
-
-        h1 {
-          font-size: 2.6em;
-        }
-
-        h2 {
-          font-size: 1.3em;
-        }
-      }
-
-      #subscript {
-        font-size: .9em;
-      }
-    }
-  }
-}
-
-@media screen and (max-width: 850px) {
-  Header {
-    padding: 1rem;
-
-    .profileImgs {
-      #profile-pic {
-        width: 4.5em;
-        height: 4.5em;
-      }
-    }
-
-    .text-content {
-      flex-grow: 0;
-
-      #name {
-        display: block;
-
-        h1 {
-          font-size: 2.2em;
-        }
-
-        h2 {
-          font-size: 1.1em;
-          text-align: left;
-        }
-      }
-
-      #subscript {
-        display: block;
-        font-size: .8em;
-      }
-    }
-  }
-}
+ */

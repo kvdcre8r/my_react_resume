@@ -12,13 +12,15 @@
     border-top-left-radius: .5em;
     border-top-right-radius: .5em;
     border-bottom: 0.2em solid white;
+    display: flex;
+    align-items: center;
 
     #profile-pic {
-      width: 7em;
-      height: 7em;
-      border: .1em solid ivory;
+      width: 8em;
+      height: 8em;
+      border: 1px solid ivory;
       background-color: #1d4483;
-      border-radius: .5em;
+      border-radius: 5px;
     }
 
     #comic-profile-pic,
@@ -29,7 +31,7 @@
 
     .text-content {
       padding-left: 1em;
-      display: flex;
+      display: block;
 
       .brand {
         flex-grow: 1;
@@ -44,10 +46,14 @@
       }
 
       .career {
+        background-color: #275db3;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: left;
 
         .job-title {
           font-size: 1.5em;
-          text-align: center;
           padding: 2px;
         }
       }
@@ -164,97 +170,30 @@
 
 @media screen and (max-width: 1024px) {
   .home {
+    font-size: .9em;
+
     header {
-      padding: 1rem;
+      padding: 2em;
 
       #profile-pic {
-        width: 5em;
-        height: 5em;
-      }
-
-      .text-content {
-        .brand {
-          .name {
-            font-size: 1.3em;
-          }
-
-          .contact-info {
-            font-size: .9em;
-          }
-        }
-
-        .career {
-          .job-title {
-            font-size: 1.25em;
-          }
-        }
-
-        .my-links {
-          a {
-            font-size: 1.5em;
-          }
-        }
+        width: 7em;
+        height: 7em;
       }
     }
-
     .home-content {
-      .home-left {
-        .site-intro {
-          #greeting {
-            font-size: 2.25em;
-          }
-
-          #desc {
-            font-size: 1em;
-          }
-        }
-      }
-
-      .home-right {
-        h2 {
-          font-size: 1.5em;
-        }
-      }
-
-      section {
-        article {
-          li {
-            font-size: 1em;
-          }
-        }
-      }
+      padding: 1em;
     }
   }
 }
 
 @media screen and (max-width: 850px) {
   .home {
-    Header {
-      #profile-pic {
-        width: 5em;
-        height: 5em;
-      }
+    font-size: .8em;
 
-      .text-content {
-        display: block;
-
-        .career {
-          background-color: #275db3;
-          border: none;
-          display: flex;
-          align-items: center;
-          font-size: .9em;
-
-          .job-title {
-            text-align: left;
-            font-size: .9em;
-          }
-        }
-      }
-    }
 
     .home-content {
       display: block;
+      padding-right: 2em;
 
       .home-left,
       .home-right {
@@ -264,99 +203,40 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 620px) {
   .home {
-    header {
-      #profile-pic {
-        width: 4em;
-        height: 4em;
-      }
+    font-size: .7em;
 
-      .text-content {
-        .brand {
-          .name {
-            font-size: 1.1em;
-          }
-
-          .contact-info {
-            font-size: .8em;
-          }
-        }
-
-        .career {
-          .job-title {
-            font-size: .75em;
-          }
-        }
-
-        .my-links {
-          a {
-            font-size: 1.3em;
-          }
-
-        }
-      }
-    }
 
     .home-content {
       .home-left {
-        .site-intro {
-          #greeting {
-            font-size: 2em;
-          }
-
-          #desc {
-            font-size: .9em;
-          }
-        }
-
         .site-tour {
           .site-tour-content {
             article {
               display: inline-block;
-
-              i {
-                font-size: 4em;
-              }
-
-              h2 {
-                font-size: 1.2em;
-              }
-
             }
           }
         }
       }
 
-      .home-right {
-        h2 {
-          font-size: 1.8em;
-        }
-
-        li {
-          font-size: 1.1em;
-        }
-      }
     }
   }
 }
 
-@media screen and (max-width: 500px) {
-  header {
-    display: block;
-    font-size: .8em;
-    text-align: center;
+@media screen and (max-width: 550px) {
+  .home {
+    font-size: .6em;
+  }
+}
 
-    .text-content {
-      .career {
-        justify-content: center;
-      }
-    }
+@media screen and (max-width: 400px) {
+  .home {
+    font-size: .5em;
   }
 }
 
 @media screen and (max-width: 360px) {
   .home {
-    font-size: .8em;
+    font-size: .4em;
   }
 }
