@@ -136,7 +136,7 @@
   }
 }
 
-@media screen and (max-width: 820px) {
+@media screen and (max-width: 620px) {
   .mainframe {
     padding: .8em;
 
@@ -171,13 +171,33 @@
     padding: .3em;
 
     .header {
-      .my-title {
-        font-size: .35em;
+
+      #coder-profile-pic {
+        width: 6em;
+        height: max-content;
+      }
+
+      .text-content {
+        font-size: .75em;
       }
 
       .mainframe-resume {
         h3 {
           font-size: .7em;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 325px) {
+  .mainframe {
+    .header {
+      display: block;
+      .text-content {
+        padding-left: 0em;
+        .contact-links {
+          padding-left: 0em;
         }
       }
     }
