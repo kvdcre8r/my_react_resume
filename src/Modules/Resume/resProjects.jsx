@@ -5,7 +5,7 @@ export default function ResProjects() {
       <article>
         <h3>
           THE SUPER-DEVELOPER | Sept ‘23 |
-          github.com/Kevin-VanDonkelaar-Personal-Website/kvdcre8r
+          <a href = "github.com/Kevin-VanDonkelaar-Personal-Website/kvdcre8r">Github Repo</a>
         </h3>
         <p>
             Personal brand website demonstrating the knowledge and skills
@@ -26,7 +26,7 @@ export default function ResProjects() {
           </li>
         </ul>
         <h3>
-          THE DAD LOCKER | April ‘24 | github.com/kvdcre8r/kvd_fsa_capstone
+          THE DAD LOCKER | April ‘24 | <a href="github.com/kvdcre8r/kvd_fsa_capstone">Github Repo</a>
         </h3>
         <p>
             An e-commerce website mockup allowing users to browse, sort, and

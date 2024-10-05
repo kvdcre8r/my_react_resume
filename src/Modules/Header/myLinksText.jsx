@@ -2,7 +2,7 @@ export default function MyLinksText() {
   return (
     <div className="my-links-text">
       <a href="https://kevin-vandonkelaar-personal-website.github.io/kvdcre8r/">
-        Personal Website
+        Personal Site
       </a>
       <a
         href="https://www.linkedin.com/in/kevinvandonkelaar"
