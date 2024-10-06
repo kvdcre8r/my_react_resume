@@ -1,6 +1,6 @@
 import ContactInfo from "../Header/contactInfo.jsx";
 import JobTitle from "../Header/jobTitle.jsx";
-import MyLinksText from "../Header/myLinksText.jsx";
+import MyLinks from "../Header/myLinks.jsx";
 import Name from "../Header/name.jsx";
 import ProfilePix from "../Header/profilePix.jsx";
 import ResEducation from "../Resume/resEducation.jsx";
@@ -22,7 +22,7 @@ export function Mainframe() {
           </div>
           <div className="contact-links">
             <ContactInfo />
-            <MyLinksText />
+            <MyLinks />
           </div>
         </div>
       </div>

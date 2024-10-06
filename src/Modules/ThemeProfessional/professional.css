@@ -22,10 +22,14 @@
         .name {
           font-size: 1.5em;
           flex-grow: 1;
+
+          #name-super {
+            display: none;
+          }
         }
       }
 
-      .my-links {
+      .my-links-icons {
         display: flex;
         align-items: end;
 
@@ -47,8 +51,10 @@
 
         a:hover {
           color: gold;
-          border: 1px solid gold;
         }
+      }
+      .my-links-text {
+        display: none;
       }
     }
   }

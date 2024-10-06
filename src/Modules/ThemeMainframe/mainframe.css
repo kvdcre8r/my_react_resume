@@ -31,6 +31,10 @@
 
         .name {
           font-size: 1.8em;
+
+          #name-super {
+            display: none;
+          }
         }
 
         .job-title {
@@ -47,6 +51,10 @@
 
         .contact-info {
           font-size: 1.5em;
+        }
+
+        .my-links-icons {
+          display: none;
         }
 
         .my-links-text {
@@ -194,8 +202,10 @@
   .mainframe {
     .header {
       display: block;
+
       .text-content {
         padding-left: 0em;
+
         .contact-links {
           padding-left: 0em;
         }

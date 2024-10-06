@@ -1,6 +1,6 @@
 import ContactInfo from "../Header/contactInfo.jsx";
-import NameSuper from "../Header/nameSuper.jsx";
-import MyLinksText from "../Header/myLinksText.jsx";
+import Name from "../Header/name.jsx";
+import MyLinks from "../Header/myLinks.jsx";
 import ProfilePix from "../Header/profilePix.jsx";
 import ResSummary from "../Resume/resSummary.jsx";
 import ResSkills from "../Resume/resSkills.jsx";
@@ -12,15 +12,22 @@ import "./superhero.css";
 export function Superhero() {
   return (
     <main className="superhero">
-        <NameSuper />
-      <div className="superhero-content">
+      <div className="header">
+        <Name />
+      </div>
+      <div className="superhero-resume">
         <div className="profile-summary">
-          <ProfilePix />
-          <ResSummary />
+          <div className="profile-links">
+            <ProfilePix />
+          </div>
+          <div className="contacts-summary">
+            <div className="contact-links">
+              <ContactInfo />
+              <MyLinks />
+            </div>
+            <ResSummary />
+          </div>
         </div>
-        <ContactInfo />
-        <MyLinksText />
-
         <ResSkills />
         <ResProjects />
         <ResEducation />

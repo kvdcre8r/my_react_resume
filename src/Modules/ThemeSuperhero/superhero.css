@@ -1,10 +1,9 @@
 .superhero {
-    color: rgb(194, 34, 34);
-    border: 0.2em solid white;
-    background-color: darkblue;
-    border-radius: 0.5em;
-    text-shadow: -0.05em 0 white, 0 0.05em white, 0.05em 0 white, 0 -0.05em white;
-    font-family: champion;
+    color: white;
+    font-family: josefin-sans;
+    border: 2px solid rgb(255, 38, 38);
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 5px;
     padding: 1rem 2rem;
     background-image: url("../../assets/spiderweb_background.jpg");
     background-repeat: no-repeat;
@@ -12,77 +11,149 @@
     background-position: center;
     background-position-y: top;
 
-    article {
-        background-color: darkblue;
-        font-family: monospace;
-        border-radius: 5px;
-        color: white;
-        text-shadow: none;
+    .header {
+        margin: 1em 0em;
         padding: 1em;
-        border: 1px solid white;
-        margin-top: 0.5em;
+        background-color: darkblue;
+        border: 2px solid rgb(255, 38, 38);
+        border-radius: 5px;
 
-        a {
-            padding-left: 0.5em;
-            color: inherit;
+        #name-super {
+            text-align: center;
+            color: darkblue;
+            text-shadow: -1px 0 white, 0 1px white, 1px 0 white,
+                0 -1px white;
+            font-family: champion;
+            font-size: 1.4em;
+            text-wrap: balance;
         }
 
-        h3 {
-            font-size: 1.1em;
-            padding-bottom: 0.15em;
-        }
-
-        ul {
-            padding-top: 0.5em;
-            padding-bottom: 2em;
-        }
-
-        p,
-        li {
-            font-size: 0.9em;
+        #name-standard {
+            display: none;
         }
     }
 
-    .name-super {
-        display: flex;
-        font-size: 1.2em;
-        padding-left: 1em;
-
-        .job-title-super {
-            border: none;
-        }
-    }
-
-    .superhero-content {
-        background-color: white;
-        border: 1px solid white;
+    .superhero-resume {
+        background-color: rgb(255, 38, 38);
         border-radius: 5px;
         margin-top: 1em;
 
         .profile-summary {
             display: flex;
-            border: 3px solid white;
+            background-color: darkblue;
+            border: 2px solid rgb(255, 38, 38);
             border-radius: 5px;
+            color: white;
+            text-shadow: none;
+            padding: 1em;
 
-            .profile-pix {
+            .profile-links {
+                .profile-pix {
 
-                #profile-pic,
-                #coder-profile-pic {
-                    display: none;
+                    #profile-pic,
+                    #coder-profile-pic {
+                        display: none;
+                    }
+
+                    #comic-profile-pic {
+                        width: 9em;
+                        height: auto;
+                        padding: .5em;
+                        border: 1px dashed white;
+                        border-radius: 5px;
+                    }
                 }
+            }
 
-                #comic-profile-pic {
-                    width: 8.5em;
-                    height: auto;
-                    border: 2px solid white;
-                    border-radius: 5px;
-                    padding: 0.3em;
+            .contacts-summary {
+                padding: .5em 1em;
+
+                .contact-links {
+                display: flex;
+                
+
+                    .contact-info {
+                        padding-bottom: 1em;
+                    }
+
+                    .my-links {
+                        .my-links-icons {
+                            display: flex;
+                            align-items: end;
+
+                            a {
+                                font-size: .9em;
+                                color: inherit;
+                                text-decoration: none;
+                                padding-right: 0.2em;
+                            }
+
+                            a:nth-child(1) {
+                                font-size: 1.2em;
+                                padding-left: .5em;
+                                text-decoration: underline;
+                            }
+
+                            .fa {
+                                padding: 0em .3em;
+                            }
+
+                            a:hover {
+                                color: gold;
+                            }
+                        }
+
+                        .my-links-text {
+                            display: none;
+                        }
+                    }
                 }
             }
 
             .res-summary {
-                font-size: 0.8em;
-                border-radius: 5px;
+                font-size: .8em;
+                border-top: 1px dashed white;
+                padding: 1em 0em;
+            }
+
+        }
+
+
+        section {
+            background-color: darkblue;
+            border: 2px solid rgb(255, 38, 38);
+            border-radius: 5px;
+            color: white;
+            text-shadow: none;
+            padding: 1em;
+
+            a {
+                padding-left: 0.5em;
+                color: inherit;
+            }
+
+            h2 {
+                font-family: champion;
+                color: darkblue;
+                text-shadow: -1px 0 white, 0 1px white, 1px 0 white,
+                    0 -1px white;
+                font-size: 2.1em;
+                padding-bottom: 0.5em;
+            }
+
+            h3 {
+                font-size: 1.1em;
+                padding-bottom: 0.3em;
+            }
+
+            ul {
+                padding-top: 0.5em;
+                padding-bottom: 2em;
+            }
+
+            p,
+            li {
+                font-size: 0.9em;
             }
         }
     }
