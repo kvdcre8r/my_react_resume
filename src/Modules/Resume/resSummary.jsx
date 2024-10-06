@@ -1,6 +1,6 @@
 export default function ResSummary() {
   return (
-    <div className="res-summary">
+    <article className="res-summary">
       <h2>
         Creative, analytical, and quality-driven tech-professional seeking
         entry-level remote or local work opportunities. Trained in full stack
@@ -8,6 +8,6 @@ export default function ResSummary() {
         create, develop, and maintain innovative web applications that go above
         and beyond the client's needs.
       </h2>
-    </div>
+    </article>
   );
 }

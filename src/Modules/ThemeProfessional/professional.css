@@ -72,6 +72,12 @@
 
     article {
       background-color: ivory;
+
+        a {
+          padding-left: .5em;
+          color: inherit;
+        }
+      
     }
   }
 }

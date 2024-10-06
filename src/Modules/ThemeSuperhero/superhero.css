@@ -2,89 +2,87 @@
     color: rgb(194, 34, 34);
     border: 0.2em solid white;
     background-color: darkblue;
-    border-radius: .5em;
-    text-shadow: -0.05em 0 white, 0 0.05em white, 0.05em 0 white,
-        0 -0.05em white;
+    border-radius: 0.5em;
+    text-shadow: -0.05em 0 white, 0 0.05em white, 0.05em 0 white, 0 -0.05em white;
     font-family: champion;
+    padding: 1rem 2rem;
+    background-image: url("../../assets/spiderweb_background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-position-y: top;
 
-    header {
-        border-bottom: 0.1em solid white;
+    article {
+        background-color: darkblue;
+        font-family: monospace;
+        border-radius: 5px;
+        color: white;
+        text-shadow: none;
+        padding: 1em;
+        border: 1px solid white;
+        margin-top: 0.5em;
 
-        #profile-pic,
-        #coder-profile-pic {
-            width: 0em;
-            height: 0em;
+        a {
+            padding-left: 0.5em;
+            color: inherit;
         }
 
-        #comic-profile-pic {
-            width: 7em;
-            height: 7em;
-            border: .1em solid rgb(194, 34, 34);
-            border-radius: .5em;
+        h3 {
+            font-size: 1.1em;
+            padding-bottom: 0.15em;
         }
 
-        #name {
-
-            h1 {
-                font-size: 4.5em;
-            }
-
-            h2 {
-                font-size: 2em;
-                text-align: right;
-                border: none;
-            }
+        ul {
+            padding-top: 0.5em;
+            padding-bottom: 2em;
         }
 
-        #subscript {
-            font-family: monospace;
-            font-size: 1.15em;
-            color: white;
-            text-shadow: none;
+        p,
+        li {
+            font-size: 0.9em;
         }
     }
 
-    #superhero-content {
-        background-image: url("../../assets/spiderweb_background.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        background-color: #1d4483;
-        padding: 1rem 2rem;
+    .name-super {
+        display: flex;
+        font-size: 1.2em;
+        padding-left: 1em;
+
+        .job-title-super {
+            border: none;
+        }
     }
 
-    section {
-        margin-top: 0.75em;
-        font-size: 1.4em;
+    .superhero-content {
+        background-color: white;
+        border: 1px solid white;
+        border-radius: 5px;
+        margin-top: 1em;
 
-        h2 {
-            font-size: 1.5em;
-        }
+        .profile-summary {
+            display: flex;
+            border: 3px solid white;
+            border-radius: 5px;
 
-        article {
-            background-color: rgba(0, 16, 139, 0.754);
-            font-family: monospace;
-            border-radius: .5em;
-            color: white;
-            text-shadow: none;
-            padding: 1em;
-            border: 0.1em solid white;
-            margin-top: 0.5em;
+            .profile-pix {
 
-            h3 {
-                font-size: 1.1em;
-                padding-bottom: 0.15em;
+                #profile-pic,
+                #coder-profile-pic {
+                    display: none;
+                }
 
+                #comic-profile-pic {
+                    width: 8.5em;
+                    height: auto;
+                    border: 2px solid white;
+                    border-radius: 5px;
+                    padding: 0.3em;
+                }
             }
 
-            ul {
-                padding-top: 0.5em;
-                padding-bottom: 2em;
-            }
-
-            p,
-            li {
-                font-size: .9em;
+            .res-summary {
+                font-size: 0.8em;
+                border-radius: 5px;
             }
         }
     }
