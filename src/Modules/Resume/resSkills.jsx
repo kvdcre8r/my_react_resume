@@ -5,7 +5,7 @@ export default function ResSkills() {
       <article>
         <h3 className="special">CSS / LAYOUT SPECIALIST</h3>
         <p>
-          Proficient: HTML5, CSS3, JavaScript, React, Git, Responsive Design
+          Proficient: HTML5, CSS3, JavaScript, React, Git, GitHub, VS Code
         </p>
         <p>Knowledgeable: Node.js, Express, SQL</p>
       </article>

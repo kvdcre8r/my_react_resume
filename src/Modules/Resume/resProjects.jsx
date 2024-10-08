@@ -4,12 +4,35 @@ export default function ResProjects() {
       <h2>Technical Projects</h2>
       <article>
         <h3>
-          THE SUPER-DEVELOPER | Sept ‘23 |
-          <a href = "https://www.github.com/Kevin-VanDonkelaar-Personal-Website/kvdcre8r">Github Repo</a>
+          MY LIVE RESUME | Current Project |
+          <a href="https://www.github.com/kvdcre8r/my_react_resume">
+            Github Repo
+          </a>
         </h3>
         <p>
-            Personal brand website demonstrating the knowledge and skills
-            necessary for success in web development and design
+          Interactive resume webpage meticulously crafted to highlight the
+          journey and skills of an aspiring web developer
+        </p>
+        <ul>
+          <li>Constructed with HTML, CSS, JavaScript, React, and Node</li>
+          <li>
+            Showcases creativity and expertise in layout design and user
+            interface functionality
+          </li>
+          <li>
+            Features dynamic content, responsive behavior, modular components,
+            reusable code, and more
+          </li>
+        </ul>
+        <h3>
+          THE SUPER-DEVELOPER | Sept ‘23 |
+          <a href="https://www.github.com/Kevin-VanDonkelaar-Personal-Website/kvdcre8r">
+            Github Repo
+          </a>
+        </h3>
+        <p>
+          Personal brand website demonstrating the knowledge and skills
+          necessary for success in web development and design
         </p>
         <ul>
           <li>
@@ -23,26 +46,6 @@ export default function ResProjects() {
           <li>
             Implements various CSS techniques including flexbox, floating
             backgrounds, and responsive behaviors
-          </li>
-        </ul>
-        <h3>
-          THE DAD LOCKER | April ‘24 |<a href="https://www.github.com/kvdcre8r/kvd_fsa_capstone">Github Repo</a>
-        </h3>
-        <p>
-            An e-commerce website mockup allowing users to browse, sort, and
-            checkout items
-        </p>
-        <ul>
-          <li>
-            FullStack Academy Capstone project developed with React, Node, and
-            SQL
-          </li>
-          <li>
-            Implements a self-created rest API allowing data to be easily
-            inserted, altered, or deleted
-          </li>
-          <li>
-            Delivers a smooth user experience with intuitive flow and design
           </li>
         </ul>
       </article>
