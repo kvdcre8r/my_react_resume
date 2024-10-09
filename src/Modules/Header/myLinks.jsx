@@ -2,8 +2,7 @@ export default function MyLinks() {
   return (
     <div className="my-links">
       <div className="my-links-icons">
-        <a href="https://kevin-vandonkelaar-personal-website.github.io/kvdcre8r/">
-          Website
+        <a href="https://kevin-vandonkelaar-personal-website.github.io/kvdcre8r/" className="fa-solid fa-globe">
         </a>
         <a
           href="https://www.linkedin.com/in/kevinvandonkelaar"

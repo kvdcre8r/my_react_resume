@@ -40,11 +40,6 @@
           padding-right: 0.2em;
         }
 
-        a:nth-child(1) {
-          font-size: 1.3em;
-          text-decoration: underline;
-        }
-
         .fa {
           padding: 0em .2em;
         }

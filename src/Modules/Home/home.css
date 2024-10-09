@@ -70,20 +70,19 @@
           font-size: 1.7em;
           color: inherit;
           text-decoration: none;
-          margin: .2em;
-          padding: 0.2em;
-        }
-
-        a:nth-child(1) {
-          font-size: 1.3em;
-          text-decoration: underline;
+          margin: .3em;
+          padding: 0.3em;
         }
 
         a:hover {
           color: gold;
           border: 1px solid gold;
+          border-radius: 5px;
+          margin: .3em;
+          padding: 0.3em;
         }
       }
+
       .my-links-text {
         display: none;
       }

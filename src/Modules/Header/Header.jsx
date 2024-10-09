@@ -13,8 +13,10 @@ export default function Header() {
           <Name />
           <JobTitle />
         </div>
-        <ContactInfo />
-        <MyLinks />
+        <div className="contact-links">
+          <ContactInfo />
+          <MyLinks />
+        </div>
       </div>
     </header>
   );
