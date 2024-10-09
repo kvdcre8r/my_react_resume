@@ -3,16 +3,15 @@ export function SiteFeatures() {
     <section id="site-features">
       <article>
         <h2>Features</h2>
-        <ul>
-          <li>Interactive User Interface</li>
-          <li>Responsive Design</li>
-          <li>Custom Animations</li>
-          <li>Modular Components</li>
-          <li>Reusable Code</li>
-          <li>Dynamic Content</li>
-          <li>Dropdown Menus</li>
-          <li>And much more!</li>
-        </ul>
+          <details><summary>Interactive User Interface</summary><p>Hands-on user friendly experience</p></details>
+          <details><summary>Responsive Design</summary><p></p></details>
+          <details><summary>Custom Animations</summary><p></p></details>
+          <details><summary>Modular Components</summary><p></p></details>
+          <details><summary>Reusable Code</summary><p></p></details>
+          <details><summary>Dynamic Content</summary><p></p></details>
+          <details><summary>Dropdown Menus</summary><p></p></details>
+          <h3>And much more!</h3>
+        
       </article>
     </section>
   );
