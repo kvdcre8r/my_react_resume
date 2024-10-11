@@ -1,122 +1,117 @@
 .site-tour {
-    padding-top: 1em;
+  padding-top: 1em;
+
+  i {
+    font-size: 2em;
+    color: white;
+    text-align: center;
+    padding: 0.5em;
+    text-decoration: none;
+
+    span {
+      font-family: "open-sans";
+      margin-left: 0.6em;
+    }
+  }
+
+  .fa-route {
+    border-bottom: 1px solid white;
+    display: flex;
+  }
+
+  .site-tour-content {
+    .nav-site-tour {
+      width: 100%;
+      padding-left: 1em;
+      padding-bottom: 1em;
+      font-size: 0.8em;
+      text-shadow: none;
+    }
 
     i {
-        font-size: 2em;
-        color: white;
-        text-align: center;
-        padding: .5em;
-        text-decoration: none;
-
-        span {
-            font-family: 'open-sans';
-            margin-left: .6em;
-        }
+      display: block;
+      float: left;
     }
 
-    .fa-route {
-        color: rgb(0, 0, 105);
-        text-shadow: -0.05em 0 white, 0 0.05em white, 0.05em 0 white,
-            0 -0.05em white;
-
+    .nav-site-tour::after {
+      display: block;
+      clear: both;
+      content: "";
     }
 
-    .site-tour-content {
+    article {
+      font-size: 0.8em;
 
-        .nav-site-tour {
-            width: 100%;
-            padding-left: 1em;
-            padding-bottom: 1em;
-            font-size: .8em;
-            text-shadow: none;
-        }
+      i {
+        font-size: 6.5em;
+      }
 
-        i {
-            display: block;
-            float: left;
-        }
-
-        .nav-site-tour::after {
-            display: block;
-            clear: both;
-            content: "";
-        }
-
-        article {
-            font-size: .8em;
-
-            i {
-                font-size: 6.5em;
-            }
-
-            h2 {
-                margin: .8em;
-            }
-        }
-
-        .fa-street-view {
-            color: ivory;
-        }
-
-        .fa-street-view:hover {
-            background-color: ivory;
-            color: rgb(0, 0, 105);
-            border-radius: 1em;
-        }
-
-        .slide-tour-guide {
-            border: .2em solid ivory;
-            display: flex;
-
-        }
-
-        .fa-wand-magic-sparkles {
-            color: gold;
-        }
-
-        .fa-wand-magic-sparkles:hover {
-            background-color: gold;
-            color: rgb(0, 0, 105);
-            border-radius: 1em;
-        }
-
-        .slide-themes {
-            display: flex;
-            color: gold;
-            border: .2em solid gold;
-        }
-
-        .fa-gear {
-            color:turquoise;
-        }
-
-        .fa-gear:hover {
-            background-color: turquoise;
-            color: rgb(0, 0, 105);
-            border-radius: 1em;
-        }
-
-        .slide-settings {
-            display: flex;
-            color: turquoise;
-            border: .2em solid turquoise;
-        }
-
-        .fa-sliders {
-            color: lightgreen;
-        }
-
-        .fa-sliders:hover {
-            background-color: lightgreen;
-            color: rgb(0, 0, 105);
-            border-radius: 1em;
-        }
-
-        .slide-customization {
-            display: flex;
-            color: lightgreen;
-            border: .2em solid lightgreen;
-        }
-
+      h2 {
+        margin: 0.8em;
+      }
     }
+
+    .fa-street-view {
+      color: ivory;
+    }
+
+    .fa-street-view:hover {
+      background-color: ivory;
+      color: rgb(0, 0, 105);
+      border-radius: 1em;
+    }
+
+    .slide-tour-guide {
+      border: 0.2em solid ivory;
+      display: flex;
+    }
+
+    .fa-wand-magic-sparkles {
+      color: gold;
+    }
+
+    .fa-wand-magic-sparkles:hover {
+      background-color: gold;
+      color: rgb(0, 0, 105);
+      border-radius: 1em;
+    }
+
+    .slide-themes {
+      display: flex;
+      color: gold;
+      border: 0.2em solid gold;
+    }
+
+    .fa-gear {
+      color: turquoise;
+    }
+
+    .fa-gear:hover {
+      background-color: turquoise;
+      color: rgb(0, 0, 105);
+      border-radius: 1em;
+    }
+
+    .slide-settings {
+      display: flex;
+      color: turquoise;
+      border: 0.2em solid turquoise;
+    }
+
+    .fa-sliders {
+      color: lightgreen;
+    }
+
+    .fa-sliders:hover {
+      background-color: lightgreen;
+      color: rgb(0, 0, 105);
+      border-radius: 1em;
+    }
+
+    .slide-customization {
+      display: flex;
+      color: lightgreen;
+      border: 0.2em solid lightgreen;
+    }
+  }
 }
