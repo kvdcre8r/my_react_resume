@@ -15,8 +15,12 @@
   }
 
   .fa-route {
+    font-size: 2.75em;
     border-bottom: 1px solid white;
     display: flex;
+    span {
+      font-family: "josefin-sans";
+    }
   }
 
   .site-tour-content {

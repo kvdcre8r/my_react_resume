@@ -2,7 +2,7 @@ export function SiteFeatures() {
   return (
     <section className="site-features">
       <article>
-        <h2>Features</h2>
+        <h2 className="features-title">Features</h2>
         <details>
           <summary>Interactive UI</summary>
           <p>Hands-on user friendly experience</p>
