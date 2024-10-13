@@ -9,8 +9,8 @@ export default function NavSiteTour() {
   return (
     <section className="nav-site-tour">
       <BtnTourHome />
-      <BtnCustomization />
       <BtnThemes />
+      <BtnCustomization />
       <BtnSettings />
     </section>
   );
