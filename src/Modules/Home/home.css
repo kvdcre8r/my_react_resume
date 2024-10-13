@@ -1,3 +1,6 @@
+/* HOME PAGE STYLING */
+/* see SiteTour folder for SiteTour CSS file */
+
 .home {
   color: ivory;
   text-shadow: -0.05em 0 darkblue, 0 0.05em darkblue, 0.05em 0 darkblue,
@@ -6,6 +9,8 @@
   border: 0.2em solid rgb(0, 0, 105);
   border-radius: 0.5em;
   font-family: "open-sans";
+
+  /* header styling for home page*/
 
   header {
     padding: 2rem;
@@ -89,6 +94,8 @@
     }
   }
 
+  /* home page main content */
+
   .home-content {
     background-image: url("../../assets/landscape-blue-pixels.jpeg");
     background-repeat: no-repeat;
@@ -121,7 +128,7 @@
             0 -0.03em white;
           font-size: 2.75em;
           font-family: "josefin-sans";
-          padding: .5em 0em 0.5em .3em;
+          padding: 0.5em 0em 0.5em 0.3em;
         }
 
         #desc {
@@ -140,7 +147,7 @@
         font-size: 2em;
         border-bottom: 1px solid white;
         display: flex;
-        margin-bottom: .3em;
+        margin-bottom: 0.3em;
       }
 
       details {
@@ -162,6 +169,8 @@
     }
   }
 }
+
+/* imported fonts */
 
 @font-face {
   font-family: "spyagency";
@@ -187,6 +196,8 @@
   font-family: "josefin-sans";
   src: url(../../assets/JosefinSans.ttf);
 }
+
+/* responsive behavior */
 
 @media screen and (max-width: 1024px) {
   .home {

@@ -1,3 +1,6 @@
+// INTRO SECTION COMPONENT
+// see home.css for styling
+
 export function SiteIntro() {
   return (
     <section className="site-intro">

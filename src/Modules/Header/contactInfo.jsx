@@ -1,3 +1,6 @@
+// CONTACT INFO COMPONENT
+// see each theme module's CSS file for styling
+
 export default function ContactInfo() {
   return (
     <div className="contact-info">

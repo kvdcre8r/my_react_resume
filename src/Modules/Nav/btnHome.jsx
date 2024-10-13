@@ -1,5 +1,8 @@
 import { Link } from "react-router-dom";
 
+// HOME BUTTON COMPONENT
+// see nav.css for styling
+
 export default function btnHome() {
   return (
     <div className="btn-home">

@@ -1,155 +1,163 @@
 nav {
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1;
-    position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  position: sticky;
 }
 
+/* NAVBAR STYLING */
+
 .navbar {
+  overflow: hidden;
+  background-color: rgb(55, 55, 55);
+  font-size: 0.8em;
+
+  a {
+    float: left;
+    font-size: 1em;
+    color: white;
+    text-align: center;
+    padding: 0.5em;
+    margin: 0.6em;
+    text-decoration: none;
+  }
+
+  a:hover {
+    border-radius: 0.2em;
+    background-color: black;
+    border: 0.1em solid ivory;
+    margin: 0.5em 0.5em 0.55em 0.5em;
+  }
+
+  i {
+    font-size: 1.5em;
+
+    span {
+      font-family: "open-sans";
+      margin-left: 0.6em;
+    }
+  }
+
+  /* theme dropdown menu */
+
+  .dropdown {
+    float: left;
     overflow: hidden;
-    background-color: rgb(55, 55, 55);
-    font-size: .8em;
 
-    a {
-        float: left;
-        font-size: 1em;
-        color: white;
-        text-align: center;
-        padding: .5em;
-        margin: 0.6em;
-        text-decoration: none;
+    .dropbtn {
+      font-size: 1em;
+      border: none;
+      outline: none;
+      color: ivory;
+      background-color: inherit;
+      padding: 0.5em;
+      margin: 0.6em;
     }
 
-    a:hover {
-        border-radius: .2em;
-        background-color: black;
-        border: .1em solid ivory;
-        margin: .5em .5em .55em .5em;
-    }
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      max-width: 100%;
+      box-sizing: border-box;
+      background-color: #000000e6;
+      border: 0.1em solid white;
+      border-radius: 0.2em;
+      min-width: 10em;
+      box-shadow: 0em 0.5em 1em 0em rgba(0, 0, 0, 0.2);
+      z-index: 1;
 
-    i {
+      a {
         font-size: 1.5em;
-
-        span {
-            font-family: "open-sans";
-            margin-left: .6em;
-        }
-    }
-
-    .dropdown {
-        float: left;
-        overflow: hidden;
-
-        .dropbtn {
-            font-size: 1em;
-            border: none;
-            outline: none;
-            color: ivory;
-            background-color: inherit;
-            padding: .5em;
-            margin: 0.6em;
-        }
-
-        .dropdown-content {
-            display: none;
-            position: absolute;
-            max-width: 100%;
-            box-sizing: border-box;
-            background-color: #000000e6;
-            border: 0.1em solid white;
-            border-radius: 0.2em;
-            min-width: 10em;
-            box-shadow: 0em .5em 1em 0em rgba(0, 0, 0, 0.2);
-            z-index: 1;
-
-            a {
-                font-size: 1.5em;
-                float: none;
-                color: white;
-                margin: 1em;
-                border: 0.1em solid rgba(0, 0, 0, 0);
-                border-radius: 3px;
-                text-decoration: none;
-                display: block;
-                text-align: left;
-            }
-
-            #btn-professional {
-                font-family: 'open-sans';
-            }
-
-            #btn-professional:hover {
-                color: rgb(62, 92, 126);
-                background-color: ivory;
-                border: 0.1em solid rgb(62, 92, 126);
-            }
-
-            #btn-mainframe {
-                font-family: 'spyagency';
-            }
-
-            #btn-mainframe:hover {
-                color: greenyellow;
-                background-color: rgb(12, 33, 33);
-                border: 0.1em solid greenyellow;
-            }
-
-            #btn-superhero {
-                font-family: 'champion';
-            }
-
-            #btn-superhero:hover {
-                color: white;
-                border: 0.1em solid rgb(194, 34, 34);
-                background-color: darkblue;
-            }
-
-            a:hover {
-                background-color: none;
-                margin: 1em;
-                border: 0.1em solid white;
-            }
-        }
-    }
-
-    .dropdown:hover .dropbtn {
-        background-color: black;
-        border: .1em solid white;
-        margin: .5em .5em 0 .5em;
-        border-bottom: none;
-        border-top-left-radius: .2em;
-        border-top-right-radius: .2em;
-    }
-
-    .dropdown:hover .dropdown-content {
+        float: none;
+        color: white;
+        margin: 1em;
+        border: 0.1em solid rgba(0, 0, 0, 0);
+        border-radius: 3px;
+        text-decoration: none;
         display: block;
+        text-align: left;
+      }
+
+      /* theme buttons on dropdown */
+
+      #btn-professional {
+        font-family: "open-sans";
+      }
+
+      #btn-professional:hover {
+        color: rgb(62, 92, 126);
+        background-color: ivory;
+        border: 0.1em solid rgb(62, 92, 126);
+      }
+
+      #btn-mainframe {
+        font-family: "spyagency";
+      }
+
+      #btn-mainframe:hover {
+        color: greenyellow;
+        background-color: rgb(12, 33, 33);
+        border: 0.1em solid greenyellow;
+      }
+
+      #btn-superhero {
+        font-family: "champion";
+      }
+
+      #btn-superhero:hover {
+        color: white;
+        border: 0.1em solid rgb(194, 34, 34);
+        background-color: darkblue;
+      }
+
+      a:hover {
+        background-color: none;
+        margin: 1em;
+        border: 0.1em solid white;
+      }
     }
+  }
+
+  .dropdown:hover .dropbtn {
+    background-color: black;
+    border: 0.1em solid white;
+    margin: 0.5em 0.5em 0 0.5em;
+    border-bottom: none;
+    border-top-left-radius: 0.2em;
+    border-top-right-radius: 0.2em;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+}
+
+/* imported fonts */
+
+@font-face {
+  font-family: "spyagency";
+  src: url(../../assets/spyagency.ttf);
 }
 
 @font-face {
-    font-family: "spyagency";
-    src: url(../../assets/spyagency.ttf);
-  }
-  
-  @font-face {
-    font-family: "champion";
-    src: url(../../assets/champion.ttf);
-  }
-  
-  @font-face {
-    font-family: "open-sans";
-    src: url(../../assets/OpenSans.ttf);
-  }
-  
-  @media screen and (max-width: 550px) {
-    .navbar {
-      font-size: .7em;
-    }
-  }
+  font-family: "champion";
+  src: url(../../assets/champion.ttf);
+}
 
-  @media screen and (max-width: 400px) {
-    .navbar {
-      font-size: .5em;
-    }
+@font-face {
+  font-family: "open-sans";
+  src: url(../../assets/OpenSans.ttf);
+}
+
+@media screen and (max-width: 550px) {
+  .navbar {
+    font-size: 0.7em;
   }
+}
+
+@media screen and (max-width: 400px) {
+  .navbar {
+    font-size: 0.5em;
+  }
+}

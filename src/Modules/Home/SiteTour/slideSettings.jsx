@@ -1,3 +1,5 @@
+// SETTINGS SLIDE COMPONENT
+
 export function SlideSettings() {
   return (
     <article className="slide-settings">

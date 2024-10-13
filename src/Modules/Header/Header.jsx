@@ -4,6 +4,9 @@ import JobTitle from "./jobTitle.jsx";
 import ContactInfo from "./contactInfo.jsx";
 import MyLinks from "./myLinks.jsx";
 
+// HEADER COMPONENTS MODULE
+// see each theme module's CSS file for styling
+
 export default function Header() {
   return (
     <header>

@@ -1,3 +1,6 @@
+// MY LINKS COMPONENT
+// see each theme module's CSS file for styling
+
 export default function MyLinks() {
   return (
     <div className="my-links">

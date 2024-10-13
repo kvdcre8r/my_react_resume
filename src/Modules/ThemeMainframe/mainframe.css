@@ -1,3 +1,5 @@
+/* MAINFRAME THEME STYLING */
+
 .mainframe {
   background-color: black;
   font-family: monospace;
@@ -5,6 +7,8 @@
   border: 0.2em solid greenyellow;
   border-radius: .5em;
   font-size: 1em;
+
+  /* header styling for this theme */
 
   .header {
     padding: 2em 2em 0em 2em;
@@ -76,6 +80,8 @@
     }
   }
 
+/* mainframe theme main content */
+
   .mainframe-resume {
     padding: 2em;
 
@@ -132,6 +138,8 @@
   }
 }
 
+/* imported fonts */
+
 @font-face {
   font-family: "spyagency";
   src: url(../../assets/spyagency.ttf);
@@ -153,6 +161,8 @@
     }
   }
 }
+
+/* responsive behavior */
 
 @media screen and (max-width: 520px) {
   .mainframe {

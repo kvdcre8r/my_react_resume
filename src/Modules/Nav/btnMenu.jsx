@@ -1,5 +1,8 @@
 import { Link } from "react-router-dom";
 
+// THEME MENU COMPONENT
+// see nav.css for styling
+
 export default function btnMenu() {
   return (
     <div>

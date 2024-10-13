@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 
+// SETTINGS BUTTON COMPONENT
+
 export default function BtnSettings() {
   return (
     <div className="btn-settings">

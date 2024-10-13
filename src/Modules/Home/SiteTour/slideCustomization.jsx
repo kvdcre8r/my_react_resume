@@ -1,3 +1,5 @@
+// CUSTOMIZATION SLIDE COMPONENT
+
 export function SlideCustomization() {
   return (
     <article className="slide-customization">

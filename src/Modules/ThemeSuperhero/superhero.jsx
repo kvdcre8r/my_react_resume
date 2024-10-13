@@ -9,6 +9,8 @@ import ResEducation from "../Resume/resEducation.jsx";
 import ResExperience from "../Resume/resExperience.jsx";
 import "./superhero.css";
 
+// SUPERHERO THEME MODULE
+
 export function Superhero() {
   return (
     <main className="superhero">
@@ -28,8 +30,10 @@ export function Superhero() {
             <ResSummary />
           </div>
         </div>
-        <ResSkills />
-        <ResProjects />
+        <div className="projects-skills">
+          <ResSkills />
+          <ResProjects />
+        </div>
         <ResEducation />
         <ResExperience />
       </div>

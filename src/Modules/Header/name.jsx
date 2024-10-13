@@ -1,3 +1,6 @@
+// NAME COMPONENT
+// see each theme module's CSS file for styling
+
 export default function Name() {
   return (
     <div className="name">

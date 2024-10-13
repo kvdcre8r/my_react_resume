@@ -1,3 +1,6 @@
+// RESUME SUMMARY COMPONENT
+// see each theme module's CSS file for styling
+
 export default function ResSummary() {
   return (
     <article className="res-summary">

@@ -1,3 +1,5 @@
+/* SUPERHERO THEME STYLING */
+
 .superhero {
   color: white;
   font-family: josefin-sans;
@@ -10,6 +12,8 @@
   background-size: cover;
   background-position: center;
   background-position-y: top;
+
+/* header styling for this theme */
 
   .header {
     margin: 1em 0em;
@@ -32,10 +36,13 @@
     }
   }
 
+  /* superhero theme main content */
+
   .superhero-resume {
     background-color: rgb(255, 38, 38);
     border-radius: 5px;
     margin-top: 1em;
+    font-size: 1.2em;
 
     .profile-summary {
       display: flex;
@@ -106,6 +113,25 @@
       }
     }
 
+    .projects-skills {
+      display: flex;
+
+      .res-projects {
+        float: left;
+        width: 80%;
+      }
+
+      .res-skills {
+        float: left;
+        width: 20%;
+
+        p {
+          font-size: 1em;
+          padding: 1.5em 0em;
+        }
+      }
+    }
+
     section {
       background-color: darkblue;
       border: 2px solid rgb(255, 38, 38);
@@ -145,6 +171,8 @@
   }
 }
 
+/* imported fonts */
+
 @font-face {
   font-family: "spyagency";
   src: url(../../assets/spyagency.ttf);
@@ -170,10 +198,12 @@
   }
 }
 
+/* responsive behavior */
+
 @media screen and (max-width: 550px) {
   .superhero {
     font-size: 0.85em;
-    padding: .5em 1em;
+    padding: 0.5em 1em;
     .superhero-resume {
       .profile-summary {
         display: block;
@@ -195,7 +225,7 @@
 
 @media screen and (max-width: 350px) {
   .superhero {
-    font-size: .75em;
+    font-size: 0.75em;
     .header {
       #name-super {
         font-size: 1.1em;

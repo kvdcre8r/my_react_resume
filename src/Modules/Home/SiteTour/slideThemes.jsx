@@ -1,3 +1,5 @@
+// THEMES SLIDE COMPONENT
+
 export function SlideThemes() {
   return (
     <article className="slide-themes">

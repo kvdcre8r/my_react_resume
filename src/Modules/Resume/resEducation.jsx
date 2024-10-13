@@ -1,3 +1,6 @@
+// RESUME EDUCATION COMPONENT
+// see each theme module's CSS file for styling
+
 export default function ResEducation() {
   return (
     <section>

@@ -8,6 +8,8 @@ import { SiteTour } from "./SiteTour/SiteTour.jsx";
 import { SiteFeatures } from "./siteFeatures.jsx";
 import "./home.css";
 
+// HOME PAGE LAYOUT
+
 export function Home() {
   return (
     <main className="home">

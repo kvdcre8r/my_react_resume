@@ -1,3 +1,5 @@
+// TOUR GUIDE SLIDE COMPONENT
+
 export function SlideTourGuide() {
   return (
     <article className="slide-tour-guide">

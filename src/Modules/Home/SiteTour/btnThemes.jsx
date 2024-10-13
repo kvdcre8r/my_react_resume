@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 
+// THEMES BUTTON COMPONENT
+
 export default function BtnThemes() {
   return (
     <div className="btn-themes">

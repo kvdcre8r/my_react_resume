@@ -1,5 +1,7 @@
 # Kevin VanDonkelaar's Live Resume
 
+### Welcome to my interactive resume experience. Thank you for your interest in my career. I hope you enjoy exploring this site as much as I did developing it.
+
 ## To-do List
 - responsive behavior
 - restructure files

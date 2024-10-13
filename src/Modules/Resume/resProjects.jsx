@@ -1,3 +1,6 @@
+// RESUME PROJECTS COMPONENT
+// see each theme module's CSS file for styling
+
 export default function ResProjects() {
   return (
     <section>

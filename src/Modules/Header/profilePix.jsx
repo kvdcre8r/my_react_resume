@@ -2,6 +2,10 @@ import profilePic from "../../assets/profilePic.png";
 import comicProfilePic from "../../assets/comicProfilePic.png";
 import coderProfilePic from "../../assets/coderProfilePic.jpg";
 
+// PROFILE PIX COMPONENT
+// profile pictures for each theme
+// see each theme module's CSS file for styling
+
 export default function ProfilePix() {
   return (
     <div className="profile-pix">

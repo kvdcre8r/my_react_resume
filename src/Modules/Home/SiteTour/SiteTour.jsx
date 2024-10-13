@@ -6,6 +6,8 @@ import { SlideThemes } from "./slideThemes.jsx";
 import { SlideSettings } from "./slideSettings.jsx";
 import "./SiteTour.css";
 
+// SITE TOUR ROUTES
+
 export function SiteTour() {
   return (
     <section className="site-tour">

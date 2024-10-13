@@ -10,6 +10,8 @@ import ResSkills from "../Resume/resSkills.jsx";
 import ResSummary from "../Resume/resSummary.jsx";
 import "./mainframe.css";
 
+// MAINFRAME THEME MODULE
+
 export function Mainframe() {
   return (
     <main className="mainframe">

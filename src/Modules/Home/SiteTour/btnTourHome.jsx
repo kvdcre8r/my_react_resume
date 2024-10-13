@@ -1,5 +1,7 @@
 import { NavLink } from "react-router-dom";
 
+// TOUR HOME BUTTON COMPONENT
+
 export default function BtnTourHome() {
   return (
     <div className="btn-tour-home">

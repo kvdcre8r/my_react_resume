@@ -1,3 +1,6 @@
+// FEATURE SECTION COMPONENT
+// see home.css for styling
+
 export function SiteFeatures() {
   return (
     <section className="site-features">

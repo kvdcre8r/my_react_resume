@@ -1,3 +1,6 @@
+// RESUME EXPERIENCE COMPONENT
+// see each theme module's CSS file for styling
+
 export default function ResExperience() {
   return (
     <section>

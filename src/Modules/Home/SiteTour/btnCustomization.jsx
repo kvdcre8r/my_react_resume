@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 
+// CUSTOMIZATION BUTTON COMPONENT
+
 export default function BtnCustomization() {
   return (
     <div className="btn-customization">
