@@ -6,32 +6,28 @@ export function SiteFeatures() {
     <section className="site-features">
       <article>
         <h2 className="features-title">Features</h2>
-        <details>
+        <details open name="features">
           <summary>Interactive UI</summary>
-          <p>Hands-on user friendly experience</p>
+          <p>Hands-on user friendly design enriches the user experience</p>
         </details>
-        <details>
-          <summary>Responsive Design</summary>
-          <p></p>
+        <details name="features">
+          <summary>Responsive Behavior</summary>
+          <p>Page layout and font size automatically adjusts to most any screen size</p>
         </details>
-        <details>
-          <summary>Dropdown Menus</summary>
-          <p></p>
-        </details>
-        <details>
-          <summary>Modular Components</summary>
-          <p></p>
-        </details>
-        <details>
-          <summary>Reusable Code</summary>
-          <p></p>
-        </details>
-        <details>
+        <details name="features">
           <summary>Dynamic Content</summary>
-          <p></p>
+          <p>Dropdown menus, expandable items, and collapsible sections</p>
         </details>
-        <details>
-          <summary>Custom Animations</summary>
+        <details name="features">
+          <summary>Modular Components</summary>
+          <p>Blocks of reusable code allowing for quick and easy modifications</p>
+        </details>
+        <details name="features">
+          <summary>Customizations</summary>
+          <p>COMING SOON!</p>
+        </details>
+        <details name="features">
+          <summary>Animations</summary>
           <p>COMING SOON!</p>
         </details>
       </article>

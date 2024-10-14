@@ -3,7 +3,7 @@
 
 export default function ResProjects() {
   return (
-    <section>
+    <section className="res-projects">
       <h2>Technical Projects</h2>
       <article>
         <h3>

@@ -4,7 +4,7 @@ export function SlideCustomization() {
   return (
     <article className="slide-customization">
       <i className="fa-solid fa-sliders"><span> Customization</span></i>
-      <h2>customization content</h2>
+      <p>COMING SOON!</p>
     </article>
   );
 }

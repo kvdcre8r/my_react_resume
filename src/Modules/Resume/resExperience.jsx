@@ -3,7 +3,7 @@
 
 export default function ResExperience() {
   return (
-    <section>
+    <section className="res-experience">
       <h2>Relevant Experience</h2>
       <article>
         <h3>

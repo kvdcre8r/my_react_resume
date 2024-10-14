@@ -1,5 +1,5 @@
 /* HOME PAGE STYLING */
-/* see SiteTour folder for SiteTour CSS file */
+/* see SiteTour folder for SiteTour JSX and CSS file */
 
 .home {
   color: ivory;
@@ -17,13 +17,8 @@
     border-top-left-radius: 0.5em;
     border-top-right-radius: 0.5em;
     border-bottom: 0.2em solid rgb(0, 0, 105);
-    background: linear-gradient(
-      0.35turn,
-      #1d4483,
-      #4089ff,
-      #1d4483
-    );
-      display: flex;
+    background: linear-gradient(#336ece, #1d4483, #142e58, #1d4483, #336ece);
+    display: flex;
     align-items: center;
 
     #profile-pic {
@@ -124,7 +119,7 @@
     }
 
     .home-left {
-      width: 70%;
+      width: 75%;
       padding: 1em 1em;
 
       .site-intro {
@@ -146,7 +141,7 @@
     }
 
     .home-right {
-      width: 30%;
+      width: 25%;
       padding: 1em;
       margin-bottom: 30em;
 
@@ -158,18 +153,18 @@
       }
 
       details {
+        margin-bottom: 1.5em;
         summary {
-          font-size: 1.5em;
+          font-size: 1.3em;
           padding-bottom: 0.5em;
         }
 
         p {
-          font-size: 1.25em;
           border: rgba(255, 255, 255, 0.826) 0.1em solid;
           padding: 0.5em;
           text-align: left;
           background-color: #2b66c6c5;
-          margin-top: 0.5em;
+          margin: 0.5em 0em;
           border-radius: 0.3em;
         }
       }

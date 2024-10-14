@@ -13,7 +13,7 @@
   background-position: center;
   background-position-y: top;
 
-/* header styling for this theme */
+  /* header styling for this theme */
 
   .header {
     margin: 1em 0em;
@@ -117,18 +117,27 @@
       display: flex;
 
       .res-projects {
-        float: left;
-        width: 80%;
+        width: 75%;
       }
 
       .res-skills {
-        float: left;
-        width: 20%;
+        width: 25%;
 
         p {
-          font-size: 1em;
           padding: 1.5em 0em;
         }
+      }
+    }
+
+    .education-experience {
+      display: flex;
+
+      .res-experience {
+        width: 70%;
+      }
+
+      .res-education {
+        width: 30%;
       }
     }
 
@@ -165,7 +174,7 @@
 
       p,
       li {
-        font-size: 0.9em;
+        font-size: 1em;
       }
     }
   }
@@ -200,17 +209,51 @@
 
 /* responsive behavior */
 
+@media screen and (max-width: 800px) {
+  .superhero {
+    .superhero-resume {
+      .projects-skills {
+        display: block;
+
+        .res-projects,
+        .res-skills {
+          width: 100%;
+        }
+
+        .res-skills {
+          p {
+            padding: 0.5em 0em;
+          }
+        }
+      }
+
+      .education-experience {
+        display: block;
+
+        .res-experience,
+        .res-education {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
 @media screen and (max-width: 550px) {
   .superhero {
     font-size: 0.85em;
     padding: 0.5em 1em;
+
     .superhero-resume {
       .profile-summary {
         display: block;
+
         .contacts-summary {
           padding: 0.5em 0em;
+
           .contact-links {
             display: block;
+
             .my-links {
               .my-links-icons {
                 padding: 0em 0em 1em 0em;
@@ -226,6 +269,7 @@
 @media screen and (max-width: 350px) {
   .superhero {
     font-size: 0.75em;
+
     .header {
       #name-super {
         font-size: 1.1em;

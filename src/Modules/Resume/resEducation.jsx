@@ -3,7 +3,7 @@
 
 export default function ResEducation() {
   return (
-    <section>
+    <section className="res-education">
       <h2>Technical Education</h2>
       <article>
         <h3>

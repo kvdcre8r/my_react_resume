@@ -34,8 +34,10 @@ export function Superhero() {
           <ResSkills />
           <ResProjects />
         </div>
-        <ResEducation />
-        <ResExperience />
+        <div className="education-experience">
+          <ResExperience />
+          <ResEducation />
+        </div>
       </div>
     </main>
   );
