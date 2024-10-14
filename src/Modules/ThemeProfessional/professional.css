@@ -45,7 +45,7 @@
         }
 
         .fa {
-          padding: 0em .2em;
+          padding: 0em 0.2em;
         }
 
         a:hover {
@@ -61,15 +61,32 @@
   /* professional theme main content */
 
   .resume-content {
+    padding: 1rem 2rem;
+
     h2 {
       border-bottom: 0.1em solid rgb(47, 66, 87);
+    }
+
+    h3 {
+      font-size: 1.1em;
+      padding-bottom: 0.15em;
+    }
+
+    ul {
+      padding-top: 0.5em;
+      padding-bottom: 1em;
+    }
+
+    p,
+    ul {
+      font-size: 1.1em;
     }
 
     .res-summary {
       h2 {
         font-size: 1.2em;
         border-bottom: none;
-        padding-bottom: .5em;
+        padding-bottom: 0.5em;
       }
     }
 
@@ -77,14 +94,20 @@
       display: none;
     }
 
-    article {
-      background-color: ivory;
+    section {
+      margin-top: 0.75em;
+
+      article {
+        background-color: ivory;
+        padding: 1em;
+        border: 0.1em solid white;
+        margin-top: 0.5em;
 
         a {
-          padding-left: .5em;
+          padding-left: 0.5em;
           color: inherit;
         }
-      
+      }
     }
   }
 }
@@ -93,14 +116,14 @@
 
 @media screen and (max-width: 600px) {
   .professional {
-    font-size: .8em;
+    font-size: 0.8em;
   }
 }
 
 @media screen and (max-width: 500px) {
   header {
     display: block;
-    font-size: .8em;
+    font-size: 0.8em;
     text-align: left;
 
     .text-content {

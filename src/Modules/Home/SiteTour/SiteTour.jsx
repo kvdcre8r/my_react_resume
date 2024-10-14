@@ -12,17 +12,19 @@ export function SiteTour() {
   return (
     <section className="site-tour">
       <article>
-        <i className="fa-solid fa-route">
-          <span>Site Tour</span>
-        </i>
         <div className="site-tour-content">
           <NavSiteTour />
-          <Routes>
-            <Route path="/" element={<SlideTourGuide />} />
-            <Route path="/customization/:id" element={<SlideCustomization />} />
-            <Route path="/themes/:id" element={<SlideThemes />} />
-            <Route path="/settings/:id" element={<SlideSettings />} />
-          </Routes>
+          <div className="site-tour-routes">
+            <Routes>
+              <Route path="/" element={<SlideTourGuide />} />
+              <Route
+                path="/customization/:id"
+                element={<SlideCustomization />}
+              />
+              <Route path="/themes/:id" element={<SlideThemes />} />
+              <Route path="/settings/:id" element={<SlideSettings />} />
+            </Routes>
+          </div>
         </div>
       </article>
     </section>

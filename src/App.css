@@ -1,4 +1,5 @@
 * {
+  box-sizing: border-box;
   margin: 0;
 }
 
@@ -10,53 +11,8 @@ body {
   margin: 0 auto;
   font-family: "open-sans";
   background-color: rgb(55, 55, 55);
-
-  h3 {
-    font-size: 1.1em;
-    padding-bottom: 0.15em;
-  }
-
-  ul {
-    padding-top: 0.5em;
-    padding-bottom: 1em;
-  }
-
-  p,
-  ul {
-    font-size: 1.1em;
-  }
-
-  .resume-content {
-
-    #main-content {
-      padding: 1rem 2rem;
-    }
-
-    section {
-      margin-top: 0.75em;
-
-      article {
-        padding: 1em;
-        border: 0.1em solid white;
-        margin-top: 0.5em;
-      }
-    }
-  }
 }
 
 /* imported app fonts */
 
-@font-face {
-  font-family: "spyagency";
-  src: url(../../assets/spyagency.ttf);
-}
 
-@font-face {
-  font-family: "champion";
-  src: url(../../assets/champion.ttf);
-}
-
-@font-face {
-  font-family: "open-sans";
-  src: url(../../assets/OpenSans.ttf);
-}

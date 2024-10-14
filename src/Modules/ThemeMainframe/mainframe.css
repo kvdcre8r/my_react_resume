@@ -1,11 +1,16 @@
 /* MAINFRAME THEME STYLING */
 
 .mainframe {
-  background-color: black;
   font-family: monospace;
-  font-size: .8rem;
+  font-size: 0.8rem;
   border: 0.2em solid greenyellow;
-  border-radius: .5em;
+  border-radius: 0.5em;
+  background: linear-gradient(
+    0.35turn,
+    rgb(9, 9, 9),
+    rgb(42, 42, 42),
+    rgb(9, 9, 9)
+  );
   font-size: 1em;
 
   /* header styling for this theme */
@@ -30,8 +35,7 @@
       .my-title {
         font-family: spyagency;
         color: black;
-        text-shadow: -1px 0 white, 0 1px white, 1px 0 white,
-          0 -1px white;
+        text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 
         .name {
           font-size: 1.8em;
@@ -80,7 +84,7 @@
     }
   }
 
-/* mainframe theme main content */
+  /* mainframe theme main content */
 
   .mainframe-resume {
     padding: 2em;
@@ -105,14 +109,12 @@
       h2 {
         font-family: spyagency;
         color: black;
-        text-shadow: -1px 0 white, 0 1px white, 1px 0 white,
-          0 -1px white;
+        text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
         font-size: 1.5em;
-        padding-bottom: .5em;
+        padding-bottom: 0.5em;
       }
 
       article {
-        background-color: black;
         font-family: monospace;
         color: greenyellow;
         text-shadow: none;
@@ -121,7 +123,7 @@
         h3 {
           color: rgb(255, 89, 0);
           font-size: 1.6em;
-          padding-bottom: .5em;
+          padding-bottom: 0.5em;
 
           a {
             color: rgb(255, 89, 0);
@@ -147,17 +149,17 @@
 
 @media screen and (max-width: 1024px) {
   .mainframe {
-    font-size: .8em;
+    font-size: 0.8em;
     padding: 1em;
   }
 }
 
 @media screen and (max-width: 620px) {
   .mainframe {
-    padding: .8em;
+    padding: 0.8em;
 
     .header .my-title {
-      font-size: .7em;
+      font-size: 0.7em;
     }
   }
 }
@@ -166,42 +168,41 @@
 
 @media screen and (max-width: 520px) {
   .mainframe {
-    padding: .5em;
+    padding: 0.5em;
 
     .header {
       .my-title {
-        font-size: .6em;
+        font-size: 0.6em;
       }
 
       .contact-links {
-        font-size: .8em;
+        font-size: 0.8em;
       }
     }
 
     .mainframe-resume .res-summary {
-      font-size: .8em;
+      font-size: 0.8em;
     }
   }
 }
 
 @media screen and (max-width: 450px) {
   .mainframe {
-    padding: .3em;
+    padding: 0.3em;
 
     .header {
-
       #coder-profile-pic {
         width: 6em;
         height: max-content;
       }
 
       .text-content {
-        font-size: .75em;
+        font-size: 0.75em;
       }
 
       .mainframe-resume {
         h3 {
-          font-size: .7em;
+          font-size: 0.7em;
         }
       }
     }

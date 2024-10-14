@@ -3,107 +3,58 @@
 .site-tour {
   padding-top: 1em;
 
-  i {
-    font-size: 2em;
-    color: white;
-    text-align: center;
-    padding: 0.5em;
-    text-decoration: none;
-
-    span {
-      font-family: "open-sans";
-      margin-left: 0.6em;
-    }
-  }
-
   .fa-route {
-    font-size: 2.75em;
+    font-size: 2.5em;
     border-bottom: 1px solid white;
-    display: flex;
+
     span {
       font-family: "josefin-sans";
     }
   }
 
-  .site-tour-content {
-    .nav-site-tour {
-      width: 100%;
-      padding-left: 1em;
-      padding-bottom: 1em;
-      font-size: 0.8em;
-      text-shadow: none;
-    }
+  /* site tour navbar */
+
+  .nav-site-tour {
+    width: 100%;
+    padding-left: 1em;
+    padding-bottom: 1em;
+    font-size: 0.8em;
+    text-shadow: none;
 
     i {
       display: block;
       float: left;
-    }
+      font-size: 2em;
+      text-align: center;
+      padding: 0.5em;
+      text-decoration: none;
 
-    .nav-site-tour::after {
-      display: block;
-      clear: both;
-      content: "";
-    }
-
-    article {
-      font-size: 0.8em;
-
-      i {
-        font-size: 6.5em;
-      }
-
-      h2 {
-        margin: 0.8em;
+      span {
+        font-family: "open-sans";
+        margin-left: 0.6em;
       }
     }
 
-    /* styling for buttons and slides */
+    /* navbar buttons */
 
     .fa-street-view {
-      color: ivory;
+      color: white;
     }
 
     .fa-street-view:hover {
-      background-color: ivory;
+      background-color: white;
       color: rgb(0, 0, 105);
       border-radius: 1em;
-    }
-
-    .slide-tour-guide {
-      border: 0.2em solid ivory;
-      display: flex;
     }
 
     .fa-wand-magic-sparkles {
-      color: gold;
+      color: rgb(255, 255, 129);
     }
 
     .fa-wand-magic-sparkles:hover {
-      background-color: gold;
+      background-color: rgb(255, 255, 129);
       color: rgb(0, 0, 105);
       border-radius: 1em;
-    }
-
-    .slide-themes {
-      display: flex;
-      color: gold;
-      border: 0.2em solid gold;
-    }
-
-    .fa-gear {
-      color: turquoise;
-    }
-
-    .fa-gear:hover {
-      background-color: turquoise;
-      color: rgb(0, 0, 105);
-      border-radius: 1em;
-    }
-
-    .slide-settings {
-      display: flex;
-      color: turquoise;
-      border: 0.2em solid turquoise;
     }
 
     .fa-sliders {
@@ -116,10 +67,59 @@
       border-radius: 1em;
     }
 
-    .slide-customization {
+    .fa-gear {
+      color: pink;
+    }
+
+    .fa-gear:hover {
+      background-color: pink;
+      color: rgb(0, 0, 105);
+      border-radius: 1em;
+    }
+  }
+  .nav-site-tour::after {
+    display: block;
+    clear: both;
+    content: "";
+  }
+
+  /* site tour routes (slides) */
+
+  .site-tour-routes {
+
+    i {
+      font-size: 2.5em;
+      padding: 0.2em;
       display: flex;
+
+      span {
+        padding-left: .3em;
+        font-family: open-sans;
+        font-size: .9em;
+      }
+    }
+
+  p {
+    font-size: 1.2em;
+  }
+
+    .slide-tour-guide {
+      border: 0.1em solid white;
+    }
+
+    .slide-themes {
+      color: rgb(255, 255, 129);
+      border: 0.1em solid rgb(255, 255, 129);
+    }
+
+    .slide-settings {
+      color: pink;
+      border: 0.1em solid pink;
+    }
+
+    .slide-customization {
       color: lightgreen;
-      border: 0.2em solid lightgreen;
+      border: 0.1em solid lightgreen;
     }
   }
 }

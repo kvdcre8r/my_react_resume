@@ -15,7 +15,7 @@ export function SiteFeatures() {
           <p></p>
         </details>
         <details>
-          <summary>Custom Animations</summary>
+          <summary>Dropdown Menus</summary>
           <p></p>
         </details>
         <details>
@@ -31,10 +31,9 @@ export function SiteFeatures() {
           <p></p>
         </details>
         <details>
-          <summary>Dropdown Menus</summary>
-          <p></p>
+          <summary>Custom Animations</summary>
+          <p>COMING SOON!</p>
         </details>
-        <h3>And much more!</h3>
       </article>
     </section>
   );
