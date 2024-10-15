@@ -31,8 +31,7 @@
 
     #comic-profile-pic,
     #coder-profile-pic {
-      width: 0em;
-      height: 0em;
+      display: none;
     }
 
     .text-content {
@@ -51,7 +50,8 @@
         }
 
         .contact-info {
-          font-size: 1.15em;
+          font-size: 1.1em;
+          text-wrap: balance;
         }
       }
 
@@ -266,7 +266,7 @@
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .home {
     header {
       .text-content {
@@ -303,13 +303,13 @@
   .home {
     header {
       padding: 1em;
-.text-content{
-  .brand{
-    .name{
-      font-size: 1.1em;
-    }
-  }
-}
+      .text-content {
+        .brand {
+          .name {
+            font-size: 1.1em;
+          }
+        }
+      }
     }
   }
 }

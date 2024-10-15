@@ -41,6 +41,7 @@
   .superhero-resume {
     background-color: rgb(255, 38, 38);
     border-radius: 5px;
+    border: 1px solid rgb(255, 38, 38);
     margin-top: 1em;
     font-size: 1.2em;
 
@@ -239,7 +240,7 @@
   }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 600px) {
   .superhero {
     font-size: 0.85em;
     padding: 0.5em 1em;
@@ -247,6 +248,15 @@
     .superhero-resume {
       .profile-summary {
         display: block;
+
+        .profile-links {
+          .profile-pix {
+            #comic-profile-pic {
+              width: 12em;
+              height: auto;
+            }
+          }
+        }
 
         .contacts-summary {
           padding: 0.5em 0em;

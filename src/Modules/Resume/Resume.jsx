@@ -10,8 +10,8 @@ import ResExperience from "./resExperience.jsx";
 export default function ResumeContent() {
   return (
     <main className="resume-content">
-      <div id="main-content">
         <ResSummary />
+      <div id="main-content">
         <ResSkills />
         <ResProjects />
         <ResEducation />
