@@ -150,14 +150,8 @@ nav {
   src: url(../../assets/OpenSans.ttf);
 }
 
-@media screen and (max-width: 550px) {
-  .navbar {
-    font-size: 0.7em;
-  }
-}
-
 @media screen and (max-width: 400px) {
   .navbar {
-    font-size: 0.5em;
+    font-size: 0.7em;
   }
 }

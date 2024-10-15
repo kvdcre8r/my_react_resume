@@ -222,8 +222,6 @@
 
 @media screen and (max-width: 850px) {
   .home {
-    font-size: 0.8em;
-
     .home-content {
       display: block;
       padding-right: 2em;
@@ -238,7 +236,7 @@
 
 @media screen and (max-width: 620px) {
   .home {
-    font-size: 0.7em;
+    font-size: 0.8em;
 
     .home-content {
       .home-left {
@@ -256,7 +254,15 @@
 
 @media screen and (max-width: 550px) {
   .home {
-    font-size: 0.6em;
+    header {
+      display: block;
+      text-align: center;
+      .text-content {
+        .career {
+          justify-content: center;
+        }
+      }
+    }
   }
 }
 
@@ -293,8 +299,17 @@
   }
 }
 
-/* @media screen and (max-width: 305px) {
+@media screen and (max-width: 350px) {
   .home {
-    font-size: .6em;
+    header {
+      padding: 1em;
+.text-content{
+  .brand{
+    .name{
+      font-size: 1.1em;
+    }
   }
-} */
+}
+    }
+  }
+}
