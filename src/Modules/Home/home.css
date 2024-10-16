@@ -81,10 +81,6 @@
 
         a:hover {
           color: gold;
-          border: 1px solid gold;
-          border-radius: 5px;
-          margin: 0.3em;
-          padding: 0.3em;
         }
       }
 
@@ -169,6 +165,56 @@
         }
       }
     }
+  }
+
+  /* tool tips */
+  .tooltip {
+    position: relative;
+    display: inline-block;
+  }
+
+  .tooltip .tooltiptext {
+    font-family: open-sans;
+    font-size: 0.7em;
+    visibility: hidden;
+    width: 120px;
+    background-color: #2b66c6;
+    border: 0.1em solid white;
+    margin-top: 0.5em;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -60px;
+  }
+
+  .tooltip .tooltiptext.links {
+    color: white;
+    border: 0.1em solid gold;
+    bottom: 100%;
+  }
+
+  .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: white transparent transparent transparent;
+  }
+
+  .tooltip .tooltiptext.links::after {
+    border-color: gold transparent transparent transparent;
+  }
+
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
   }
 }
 

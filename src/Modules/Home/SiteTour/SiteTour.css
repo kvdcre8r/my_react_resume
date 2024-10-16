@@ -1,92 +1,6 @@
-/* styling for site tour components */
-
 .site-tour {
   padding-top: 1em;
-
-  .fa-route {
-    font-size: 2.5em;
-    border-bottom: 1px solid white;
-
-    span {
-      font-family: "josefin-sans";
-    }
-  }
-
-  /* site tour navbar */
-
-  .nav-site-tour {
-    width: 100%;
-    font-size: 0.8em;
-    text-shadow: none;
-
-    i {
-      display: block;
-      float: left;
-      font-size: 2em;
-      text-align: center;
-      margin: 0em 0.3em 0.6em 0.3em;
-      padding: 0.2em;
-      text-decoration: none;
-    }
-
-    /* navbar buttons */
-
-    .fa-street-view {
-      color: white;
-    }
-
-    .fa-street-view:hover {
-      background-color: white;
-      color: rgb(0, 0, 105);
-      border-radius: 1em;
-    }
-
-    .fa-wand-magic-sparkles {
-      color: rgb(255, 255, 129);
-    }
-
-    .fa-wand-magic-sparkles:hover {
-      background-color: rgb(255, 255, 129);
-      color: rgb(0, 0, 105);
-      border-radius: 1em;
-    }
-
-    .fa-star {
-      color: rgb(43, 202, 255);
-    }
-
-    .fa-star:hover {
-      background-color: rgb(43, 202, 255);
-      color: rgb(0, 0, 105);
-      border-radius: 1em;
-    }
-
-    .fa-sliders {
-      color: lightgreen;
-    }
-
-    .fa-sliders:hover {
-      background-color: lightgreen;
-      color: rgb(0, 0, 105);
-      border-radius: 1em;
-    }
-
-    .fa-gear {
-      color: pink;
-    }
-
-    .fa-gear:hover {
-      background-color: pink;
-      color: rgb(0, 0, 105);
-      border-radius: 1em;
-    }
-  }
-  .nav-site-tour::after {
-    display: block;
-    clear: both;
-    content: "";
-  }
-
+  
   /* site tour routes (slides) */
 
   .site-tour-routes {
@@ -120,8 +34,8 @@
     }
 
     .slide-dynamics {
-      color: rgb(43, 202, 255);
-      border: 0.1em solid rgb(43, 202, 255);
+      color: rgb(107, 218, 255);
+      border: 0.1em solid rgb(107, 218, 255);
     }
 
     .slide-settings {
