@@ -12,7 +12,7 @@ export function SiteFeatures() {
         </details>
         <details name="features">
           <summary>Responsive Behavior</summary>
-          <p>Page layout and font size automatically adjusts to most any screen size</p>
+          <p>Page layout and font size automatically adjust to accomodaate most any screen size</p>
         </details>
         <details name="features">
           <summary>Dynamic Content</summary>

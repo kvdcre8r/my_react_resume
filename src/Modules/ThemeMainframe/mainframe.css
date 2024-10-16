@@ -159,8 +159,16 @@
   .mainframe {
     .header {
       display: block;
+
       #coder-profile-pic {
+        width: 12em;
+        height: max-content;
         padding: 1em;
+      }
+      .text-content {
+        .contact-links {
+          padding: 1em 0em;
+        }
       }
     }
   }
@@ -168,48 +176,26 @@
 
 @media screen and (max-width: 520px) {
   .mainframe {
-    .header {
-      .my-title {
-        font-size: 0.8em;
-      }
-    }
-  }
-}
-
-@media screen and (max-width: 450px) {
-  .mainframe {
+    font-size: 0.8em;
     padding: 0.3em;
 
     .header {
-      #coder-profile-pic {
-        width: 6em;
-        height: max-content;
-      }
+      padding: 1em;
 
       .text-content {
-        font-size: 0.75em;
-      }
-
-      .mainframe-resume {
-        h3 {
-          font-size: 0.7em;
+        .my-title {
+            font-size: .7em;
         }
       }
     }
   }
 }
 
-@media screen and (max-width: 325px) {
+@media screen and (max-width: 380px) {
   .mainframe {
     .header {
-      display: block;
-
-      .text-content {
-        padding-left: 0em;
-
-        .contact-links {
-          padding-left: 0em;
-        }
+  .text-content {
+        font-size: .75em;
       }
     }
   }

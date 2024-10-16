@@ -7,7 +7,7 @@ export default function BtnDynamics() {
   return (
     <div className="btn-dynamics">
       <Link to="/dynamics/:id">
-        <i class="fa-solid fa-star"></i>
+        <i className="fa-solid fa-star"></i>
       </Link>
     </div>
   );
