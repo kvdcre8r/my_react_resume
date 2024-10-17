@@ -76,6 +76,7 @@
 
         .contact-links {
           display: flex;
+          align-items: baseline;
 
           .contact-info {
             padding-bottom: 1em;
@@ -83,20 +84,13 @@
           }
 
           .my-links {
+text-wrap:nowrap;
+
             .my-links-icons {
-              display: flex;
-              align-items: end;
-              padding-left: 1em;
+              padding-left: .5em;
 
               a {
-                font-size: 1em;
-                color: inherit;
-                text-decoration: none;
-                padding: 0em 0.5em;
-              }
-
-              a:hover {
-                color: gold;
+                font-size: 1.5em;
               }
             }
 
@@ -188,30 +182,13 @@
   src: url(../../assets/spyagency.ttf);
 }
 
-@media screen and (max-width: 650px) {
-  .superhero {
-    font-size: 0.9em;
-
-    .header {
-      padding: 2em;
-    }
-
-    .superhero-resume {
-      .profile-summary {
-        padding: 1em;
-      }
-
-      section {
-        padding: 1em;
-      }
-    }
-  }
-}
-
 /* responsive behavior */
 
 @media screen and (max-width: 800px) {
   .superhero {
+    font-size: 0.85em;
+    padding: 0.5em 1em;
+
     .superhero-resume {
       .projects-skills {
         display: block;
@@ -242,8 +219,6 @@
 
 @media screen and (max-width: 600px) {
   .superhero {
-    font-size: 0.85em;
-    padding: 0.5em 1em;
 
     .superhero-resume {
       .profile-summary {

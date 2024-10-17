@@ -13,7 +13,6 @@
     text-decoration: none;
   }
 
-
   /* navbar buttons */
 
   .btn-tour-home {
@@ -28,44 +27,52 @@
     }
   }
 
-  .fa-wand-magic-sparkles {
-    color: rgb(255, 255, 129);
+  .btn-themes {
+    .fa-wand-magic-sparkles {
+      color: rgb(255, 255, 129);
+    }
+
+    .fa-wand-magic-sparkles:hover {
+      background-color: rgb(255, 255, 129);
+      color: rgb(0, 0, 105);
+      border-radius: 1em;
+    }
   }
 
-  .fa-wand-magic-sparkles:hover {
-    background-color: rgb(255, 255, 129);
-    color: rgb(0, 0, 105);
-    border-radius: 1em;
+  .btn-dynamics {
+    .fa-star {
+      color: rgb(107, 218, 255);
+    }
+
+    .fa-star:hover {
+      background-color: rgb(107, 218, 255);
+      color: rgb(0, 0, 105);
+      border-radius: 1em;
+    }
   }
 
-  .fa-star {
-    color: rgb(107, 218, 255);
+  .btn-customization {
+    .fa-sliders {
+      color: lightgreen;
+    }
+
+    .fa-sliders:hover {
+      background-color: lightgreen;
+      color: rgb(0, 0, 105);
+      border-radius: 1em;
+    }
   }
 
-  .fa-star:hover {
-    background-color: rgb(107, 218, 255);
-    color: rgb(0, 0, 105);
-    border-radius: 1em;
-  }
+  .btn-settings {
+    .fa-gear {
+      color: pink;
+    }
 
-  .fa-sliders {
-    color: lightgreen;
-  }
-
-  .fa-sliders:hover {
-    background-color: lightgreen;
-    color: rgb(0, 0, 105);
-    border-radius: 1em;
-  }
-
-  .fa-gear {
-    color: pink;
-  }
-
-  .fa-gear:hover {
-    background-color: pink;
-    color: rgb(0, 0, 105);
-    border-radius: 1em;
+    .fa-gear:hover {
+      background-color: pink;
+      color: rgb(0, 0, 105);
+      border-radius: 1em;
+    }
   }
 }
 
