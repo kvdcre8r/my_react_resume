@@ -84,13 +84,30 @@
           }
 
           .my-links {
-text-wrap:nowrap;
+            text-wrap: nowrap;
 
             .my-links-icons {
-              padding-left: .5em;
+              padding-left: 0.5em;
 
               a {
                 font-size: 1.5em;
+              }
+
+              a:hover {
+                color: rgb(255, 38, 38);
+              }          
+
+              .tooltip .tooltiptext {
+                color: white;
+                border: 0.1em solid rgb(255, 38, 38);
+                background-color: darkblue;
+                bottom: 100%;
+                margin-bottom: 0.5em;
+              }
+
+              .tooltip .tooltiptext::after {
+                border-color: rgb(255, 38, 38) transparent transparent
+                  transparent;
               }
             }
 
@@ -219,7 +236,6 @@ text-wrap:nowrap;
 
 @media screen and (max-width: 600px) {
   .superhero {
-
     .superhero-resume {
       .profile-summary {
         display: block;

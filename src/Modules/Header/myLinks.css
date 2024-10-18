@@ -41,13 +41,6 @@
     margin-left: -60px;
   }
 
-  .tooltip .tooltiptext.links {
-    color: white;
-    border: 0.1em solid gold;
-    bottom: 100%;
-    margin-bottom: .5em;
-  }
-
   .tooltip .tooltiptext::after {
     content: "";
     position: absolute;
@@ -57,10 +50,6 @@
     border-width: 5px;
     border-style: solid;
     border-color: white transparent transparent transparent;
-  }
-
-  .tooltip .tooltiptext.links::after {
-    border-color: gold transparent transparent transparent;
   }
 
   .tooltip:hover .tooltiptext {

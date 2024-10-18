@@ -67,6 +67,17 @@
         }
       }
 
+      .tooltip .tooltiptext.links {
+        color: white;
+        border: 0.1em solid gold;
+        bottom: 100%;
+        margin-bottom: .5em;
+      }
+
+      .tooltip .tooltiptext.links::after {
+        border-color: gold transparent transparent transparent;
+      }    
+
       .my-links-text {
         display: none;
       }
