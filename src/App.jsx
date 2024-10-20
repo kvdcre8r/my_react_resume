@@ -4,6 +4,7 @@ import { Home } from "./Modules/Home/Home.jsx";
 import { Professional } from "./Modules/ThemeProfessional/professional.jsx";
 import { Mainframe } from "./Modules/ThemeMainframe/mainframe.jsx";
 import { Superhero } from "./Modules/ThemeSuperhero/superhero.jsx";
+import Custom from "./Modules/ThemeCustom/Custom.jsx";
 import "./App.css";
 
 // APP ROUTES
@@ -17,6 +18,7 @@ function App() {
         <Route path="/Professional" element={<Professional />} />
         <Route path="/Mainframe" element={<Mainframe />} />
         <Route path="/Superhero" element={<Superhero />} />
+        <Route path="/Custom" element={<Custom />} />
       </Routes>
     </div>
   );
