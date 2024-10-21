@@ -1,9 +1,7 @@
 import styled from "styled-components";
-import Resume from "../Resume/Resume";
-import Header from "../Header/Header";
-import { ProfessionalStyle } from "../Themes/professional";
+import Professional from "../Themes/professional";
 
-const ResumeContentStyle = styled.div`
+export const ResumeContentStyle = styled.div`
   background-color: beige;
   border: 1px solid darkcyan;
   border-radius: 5px;
@@ -17,27 +15,13 @@ const ResumeContentStyle = styled.div`
   }
 `;
 
-const ResumeBackground = styled.div`
-  background-color: white;
-  width: 85%;
-`;
 
-const HeaderAlt = styled.div`
-  font-family: monospace;
-  `;
 
 function ResumeContent() {
   return (
-    <ResumeBackground>
       <ResumeContentStyle>
-        <ProfessionalStyle>
-          <HeaderAlt>
-            <Header />
-          </HeaderAlt>
-          <Resume />
-        </ProfessionalStyle>
+        <Professional />
       </ResumeContentStyle>
-    </ResumeBackground>
   );
 }
 
