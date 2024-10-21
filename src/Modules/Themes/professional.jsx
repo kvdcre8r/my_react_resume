@@ -1,11 +1,13 @@
-/* PROFESSIONAL THEME STYLING */
+import styled from "styled-components";
+import Header from "../Header/Header.jsx";
+import ResumeContent from "../Resume/Resume.jsx";
 
-.professional {
+// PROFESSIONAL THEME STYLING (layout at bottom of file)
+
+export const ProfessionalStyle = styled.div`
   color: rgb(62, 92, 126);
   background-color: ivory;
   border: 0.2em solid rgb(62, 92, 126);
-
-  /* header styling for this theme */
 
   header {
     padding: 2.5em;
@@ -33,12 +35,6 @@
         }
       }
 
-      .contact-links {
-        .contact-info {
-          text-wrap: balance;
-        }
-      }
-
       .my-links-text {
         font-size: 1.1em;
         display: flex;
@@ -54,8 +50,6 @@
       }
     }
   }
-
-  /* professional theme main content */
 
   .resume-content {
     padding: 1rem 2.5rem;
@@ -105,23 +99,33 @@
       }
     }
   }
-}
 
-/* responsive behavior */
+  /* responsive behavior */
 
-@media screen and (max-width: 600px) {
-  .professional {
+  @media screen and (max-width: 600px) {
     font-size: 0.9em;
   }
-}
 
-@media screen and (max-width: 400px) {
-  .professional {
-    header, .resume-content {
+  @media screen and (max-width: 400px) {
+    header,
+    .resume-content {
       padding: 1.5em;
     }
     #name-standard {
       font-size: 1.7em;
     }
   }
+`;
+
+// PROFESSIONAL THEME LAYOUT
+
+function Professional() {
+  return (
+    <ProfessionalStyle>
+      <Header />
+      <ResumeContent />
+    </ProfessionalStyle>
+  );
 }
+
+export default Professional;

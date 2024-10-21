@@ -1,14 +1,14 @@
 import styled from "styled-components";
 
 const HeaderStyle = styled.header`
-  background-color: lightsalmon;
+  background-color: lightcyan;
   padding: 20px;
   text-align: center;
   font-family: courgette;
   color: darkcyan;
 `;
 
-function Header() {
+function CustomHeader() {
   return (
     <HeaderStyle>
       <h1>My Customizable Resume</h1>
@@ -16,4 +16,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default CustomHeader;

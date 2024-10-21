@@ -2,14 +2,19 @@
 
 import React from "react";
 import Container from "./Container.style";
-import Header from "./Header.style";
-import MainLayout from "./Main";
+import CustomHeader from "./Header.style";
+import MainStyle from "./MainContent.style";
+import ResumeContent from "./ResumeContent";
+import Sidebar from "./Sidebar";
 
 function Custom() {
   return (
     <Container>
-      <Header />
-      <MainLayout />
+      <CustomHeader />
+      <MainStyle>
+        <Sidebar />
+        <ResumeContent />
+      </MainStyle>
     </Container>
   );
 }

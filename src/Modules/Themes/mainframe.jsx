@@ -1,6 +1,18 @@
-/* MAINFRAME THEME STYLING */
+import styled from "styled-components";
+import ContactInfo from "../Header/contactInfo.jsx";
+import JobTitle from "../Header/jobTitle.jsx";
+import MyLinks from "../Header/myLinks.jsx";
+import Name from "../Header/name.jsx";
+import ProfilePix from "../Header/profilePix.jsx";
+import ResEducation from "../Resume/resEducation.jsx";
+import ResExperience from "../Resume/resExperience.jsx";
+import ResProjects from "../Resume/resProjects.jsx";
+import ResSkills from "../Resume/resSkills.jsx";
+import ResSummary from "../Resume/resSummary.jsx";
 
-.mainframe {
+// MAINFRAME THEME STYLING (layout at bottom of file)
+
+export const MainframeStyle = styled.div`
   font-family: monospace;
   font-size: 0.8rem;
   border: 0.2em solid greenyellow;
@@ -12,9 +24,7 @@
     rgb(9, 9, 9)
   );
 
-  /* header styling for this theme */
-
-  .header {
+  header {
     padding: 2em 2em 0em 2em;
     display: flex;
 
@@ -83,8 +93,6 @@
     }
   }
 
-  /* mainframe theme main content */
-
   .mainframe-resume {
     padding: 2em;
 
@@ -144,20 +152,11 @@
       }
     }
   }
-}
 
-/* imported fonts */
+  /* responsive behavior */
 
-@font-face {
-  font-family: "spyagency";
-  src: url(../../assets/spyagency.ttf);
-}
-
-/* responsive behavior */
-
-@media screen and (max-width: 620px) {
-  .mainframe {
-    .header {
+  @media screen and (max-width: 620px) {
+    header {
       display: block;
 
       #coder-profile-pic {
@@ -172,31 +171,58 @@
       }
     }
   }
-}
 
-@media screen and (max-width: 520px) {
-  .mainframe {
+  @media screen and (max-width: 520px) {
     font-size: 0.8em;
     padding: 0.3em;
 
-    .header {
+    header {
       padding: 1em;
 
       .text-content {
         .my-title {
-            font-size: .7em;
+          font-size: 0.7em;
         }
       }
     }
   }
-}
 
-@media screen and (max-width: 380px) {
-  .mainframe {
-    .header {
-  .text-content {
-        font-size: .75em;
+  @media screen and (max-width: 380px) {
+    header {
+      .text-content {
+        font-size: 0.75em;
       }
     }
   }
+`;
+
+// MAINFRAME THEME LAYOUT
+
+function Mainframe() {
+  return (
+    <MainframeStyle>
+      <header>
+        <ProfilePix />
+        <div className="text-content">
+          <div className="my-title">
+            <Name />
+            <JobTitle />
+          </div>
+          <div className="contact-links">
+            <ContactInfo />
+            <MyLinks />
+          </div>
+        </div>
+      </header>
+      <div className="mainframe-resume">
+        <ResSummary />
+        <ResSkills />
+        <ResProjects />
+        <ResEducation />
+        <ResExperience />
+      </div>
+    </MainframeStyle>
+  );
 }
+
+export default Mainframe;

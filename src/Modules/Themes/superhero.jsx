@@ -1,21 +1,31 @@
-/* SUPERHERO THEME STYLING */
+import styled from "styled-components";
+import backgroundImage from "../../assets/spiderweb_background.jpg";
+import ContactInfo from "../Header/contactInfo.jsx";
+import Name from "../Header/name.jsx";
+import MyLinks from "../Header/myLinks.jsx";
+import ProfilePix from "../Header/profilePix.jsx";
+import ResSummary from "../Resume/resSummary.jsx";
+import ResSkills from "../Resume/resSkills.jsx";
+import ResProjects from "../Resume/resProjects.jsx";
+import ResEducation from "../Resume/resEducation.jsx";
+import ResExperience from "../Resume/resExperience.jsx";
 
-.superhero {
+// SUPERHERO THEME STYLING (layout at bottom of file)
+
+export const SuperheroStyle = styled.div`
   color: white;
   font-family: josefin-sans;
   border: 2px solid rgb(255, 38, 38);
   background-color: rgba(0, 0, 0, 0);
   border-radius: 5px;
   padding: 1rem 2rem;
-  background-image: url("../../assets/spiderweb_background.jpg");
+  background-image: url(${backgroundImage});
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-position-y: top;
 
-  /* header styling for this theme */
-
-  .header {
+  header {
     margin: 1em 0em;
     padding: 1em;
     background-color: darkblue;
@@ -28,15 +38,12 @@
       text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
       font-family: champion;
       font-size: 1.6em;
-      text-wrap: balance;
     }
 
     #name-standard {
       display: none;
     }
   }
-
-  /* superhero theme main content */
 
   .superhero-resume {
     background-color: rgb(255, 38, 38);
@@ -80,14 +87,12 @@
 
           .contact-info {
             padding-bottom: 1em;
-            text-wrap: balance;
           }
 
           .my-links {
-            text-wrap: nowrap;
-
             .my-links-icons {
               padding-left: 0.5em;
+              white-space: nowrap;
 
               a {
                 font-size: 1.5em;
@@ -95,7 +100,7 @@
 
               a:hover {
                 color: rgb(255, 38, 38);
-              }          
+              }
 
               .tooltip .tooltiptext {
                 color: white;
@@ -190,19 +195,10 @@
       }
     }
   }
-}
 
-/* imported fonts */
+  /* responsive behavior */
 
-@font-face {
-  font-family: "spyagency";
-  src: url(../../assets/spyagency.ttf);
-}
-
-/* responsive behavior */
-
-@media screen and (max-width: 800px) {
-  .superhero {
+  @media screen and (max-width: 800px) {
     font-size: 0.85em;
     padding: 0.5em 1em;
 
@@ -232,10 +228,8 @@
       }
     }
   }
-}
 
-@media screen and (max-width: 600px) {
-  .superhero {
+  @media screen and (max-width: 600px) {
     .superhero-resume {
       .profile-summary {
         display: block;
@@ -265,16 +259,50 @@
       }
     }
   }
-}
 
-@media screen and (max-width: 350px) {
-  .superhero {
+  @media screen and (max-width: 350px) {
     font-size: 0.75em;
 
-    .header {
+    header {
       #name-super {
         font-size: 1.1em;
       }
     }
   }
+`;
+
+// SUPERHERO THEME LAYOUT
+
+function Superhero() {
+  return (
+    <SuperheroStyle>
+      <header>
+        <Name />
+      </header>
+      <div className="superhero-resume">
+        <div className="profile-summary">
+          <div className="profile-links">
+            <ProfilePix />
+          </div>
+          <div className="contacts-summary">
+            <div className="contact-links">
+              <ContactInfo />
+              <MyLinks />
+            </div>
+            <ResSummary />
+          </div>
+        </div>
+        <div className="projects-skills">
+          <ResSkills />
+          <ResProjects />
+        </div>
+        <div className="education-experience">
+          <ResExperience />
+          <ResEducation />
+        </div>
+      </div>
+    </SuperheroStyle>
+  );
 }
+
+export default Superhero;

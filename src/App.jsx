@@ -1,9 +1,9 @@
 import { Routes, Route } from "react-router-dom";
 import Nav from "./Modules/Nav/Nav.jsx";
 import { Home } from "./Modules/Home/Home.jsx";
-import { Professional } from "./Modules/ThemeProfessional/professional.jsx";
-import { Mainframe } from "./Modules/ThemeMainframe/mainframe.jsx";
-import { Superhero } from "./Modules/ThemeSuperhero/superhero.jsx";
+import Professional from "./Modules/Themes/professional.jsx";
+import Mainframe from "./Modules/Themes/mainframe.jsx";
+import Superhero from "./Modules/Themes/superhero.jsx";
 import Custom from "./Modules/ThemeCustom/Custom.jsx";
 import "./App.css";
 
