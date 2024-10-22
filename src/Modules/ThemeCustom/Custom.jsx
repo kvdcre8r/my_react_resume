@@ -3,16 +3,13 @@
 import React from "react";
 import Container from "./Container.style";
 import CustomHeader from "./Header.style";
-import MainStyle from "./MainContent.style";
-import FontSizeSelector from "./FontSize.selector";
+import ThemeCustom from "./ThemeCustom";
 
 function Custom() {
   return (
     <Container>
       <CustomHeader />
-      <MainStyle>
-        <FontSizeSelector />
-      </MainStyle>
+      <ThemeCustom />
     </Container>
   );
 }

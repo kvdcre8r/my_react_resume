@@ -1,4 +1,5 @@
 import React, { useState, useRef } from "react";
+import styled from "styled-components";
 import ResumeContent from "./ResumeContent";
 
 const TargetComponent = React.forwardRef((props, ref) => {
@@ -9,8 +10,14 @@ const TargetComponent = React.forwardRef((props, ref) => {
   );
 });
 
-const FontSizeSelector = () => {
+const SelectorStyle = styled.div`
+  color: lightcyan;
+  padding: 10px;
+`;
+
+const Selectors = () => {
   const [selectedValue, setSelectedValue] = useState("");
+  const [bgColor, setBgColor] = useState(""); // State for the new dropdown
   const targetRef = useRef(null);
 
   const actionOne = () => {
@@ -31,10 +38,15 @@ const FontSizeSelector = () => {
     }
   };
 
-  const handleChange = (event) => {
+  const changeColor = (color) => {
+    if (targetRef.current) {
+      targetRef.current.style.backgroundColor = color;
+    }
+  };
+
+  const handleFontSizeChange = (event) => {
     const value = event.target.value;
     setSelectedValue(value);
-
     switch (value) {
       case "option1":
         actionOne();
@@ -50,18 +62,41 @@ const FontSizeSelector = () => {
     }
   };
 
+  const handleBgColorChange = (event) => {
+    const color = event.target.value;
+    setBgColor(color);
+    changeColor(color);
+  };
+
   return (
-    <div>
+    <SelectorStyle>
       <h3>Font Size:</h3>
-      <select value={selectedValue} onChange={handleChange}>
-        <option value="">Select an option</option>
+      <select value={selectedValue} onChange={handleFontSizeChange}>
+        <option value="">Select a size</option>
         <option value="option1">small</option>
         <option value="option2">medium</option>
         <option value="option3">large</option>
       </select>
+      
+      <h3>Background Color:</h3>
+      <select value={bgColor} onChange={handleBgColorChange}>
+        <option value="">Select a color</option>
+        <option value="red">Red</option>
+        <option value="blue">Blue</option>
+        <option value="green">Green</option>
+      </select>
+      
       <TargetComponent ref={targetRef} />
-    </div>
+    </SelectorStyle>
   );
 };
 
-export default FontSizeSelector;
+function ThemeCustom() {
+  return (
+    <div>
+      <Selectors />
+    </div>
+  );
+}
+
+export default ThemeCustom;

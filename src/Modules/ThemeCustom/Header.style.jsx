@@ -1,11 +1,13 @@
 import styled from "styled-components";
 
 const HeaderStyle = styled.header`
-  background-color: lightcyan;
+  background-color: #d2eaea;
   padding: 20px;
   text-align: center;
   font-family: courgette;
-  color: darkcyan;
+  color: #30599b;
+  margin: 10px;
+  border-radius: 3px;
 `;
 
 function CustomHeader() {
