@@ -1,12 +1,13 @@
 import styled from "styled-components";
 
 const HeaderStyle = styled.header`
-  background-color: #d2eaea;
+  background-color: #30599b;
   padding: 20px;
   text-align: center;
   font-family: courgette;
-  color: #30599b;
+  color: white;
   margin: 10px;
+  border: 2px solid white;
   border-radius: 3px;
 `;
 

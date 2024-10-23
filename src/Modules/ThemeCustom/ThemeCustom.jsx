@@ -1,18 +1,35 @@
 import React, { useState, useRef } from "react";
 import styled from "styled-components";
-import ResumeContent from "./ResumeContent";
+import CustomResume from "./CustomResume";
 
 const TargetComponent = React.forwardRef((props, ref) => {
   return (
     <div ref={ref}>
-      <ResumeContent />
+      <CustomResume />
     </div>
   );
 });
 
+const MainStyle = styled.div`
+  font-family: monospace;
+  margin: 10px;
+  background-color: lightyellow;
+  color: black;
+  display: flex;
+
+  @media screen and (max-width: 600px) {
+    flex-direction: column;
+  }
+`;
+
 const SelectorStyle = styled.div`
+  font-family: open-sans;
   color: lightcyan;
+  background-color: #30599b;
   padding: 10px;
+  select {
+    color: rgb(62, 92, 126);
+  }
 `;
 
 const Selectors = () => {
@@ -22,19 +39,19 @@ const Selectors = () => {
 
   const actionOne = () => {
     if (targetRef.current) {
-      targetRef.current.style.fontSize = "12px";
+      targetRef.current.style.fontSize = "8px";
     }
   };
 
   const actionTwo = () => {
     if (targetRef.current) {
-      targetRef.current.style.fontSize = "16px";
+      targetRef.current.style.fontSize = "12px";
     }
   };
 
   const actionThree = () => {
     if (targetRef.current) {
-      targetRef.current.style.fontSize = "24px";
+      targetRef.current.style.fontSize = "16px";
     }
   };
 
@@ -69,25 +86,26 @@ const Selectors = () => {
   };
 
   return (
-    <SelectorStyle>
-      <h3>Font Size:</h3>
-      <select value={selectedValue} onChange={handleFontSizeChange}>
-        <option value="">Select a size</option>
-        <option value="option1">small</option>
-        <option value="option2">medium</option>
-        <option value="option3">large</option>
-      </select>
-      
-      <h3>Background Color:</h3>
-      <select value={bgColor} onChange={handleBgColorChange}>
-        <option value="">Select a color</option>
-        <option value="red">Red</option>
-        <option value="blue">Blue</option>
-        <option value="green">Green</option>
-      </select>
-      
+    <MainStyle>
+      <SelectorStyle>
+        <h3>Font Size:</h3>
+        <select value={selectedValue} onChange={handleFontSizeChange}>
+          <option value="">Select a size</option>
+          <option value="option1">small</option>
+          <option value="option2">medium</option>
+          <option value="option3">large</option>
+        </select>
+
+        <h3>Background Color:</h3>
+        <select value={bgColor} onChange={handleBgColorChange}>
+          <option value="">Select a color</option>
+          <option value="Pink">Pink</option>
+          <option value="gold">Gold</option>
+          <option value="cyan">Cyan</option>
+        </select>
+      </SelectorStyle>
       <TargetComponent ref={targetRef} />
-    </SelectorStyle>
+    </MainStyle>
   );
 };
 

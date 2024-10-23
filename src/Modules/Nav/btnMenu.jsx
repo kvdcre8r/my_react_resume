@@ -20,8 +20,8 @@ export default function btnMenu() {
           <Link to="/superhero" id="btn-superhero">
             <strong>S u p e r h e r o</strong>
           </Link>
-          <Link to="/custom" id="btn-custom">Custom</Link>
-        </div>
+          <Link to="/custom" id="btn-custom">Customizable</Link>
+          </div>
       </div>
     </div>
   );

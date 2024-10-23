@@ -111,6 +111,16 @@ nav {
         background-color: darkblue;
       }
 
+      #btn-custom {
+        font-family: "courgette";
+      }
+
+      #btn-custom:hover {
+        color: lightcyan;
+        border: 0.1em solid lightcyan;
+        background-color: #30599b;
+      }
+
       a:hover {
         background-color: none;
         margin: 1em;
