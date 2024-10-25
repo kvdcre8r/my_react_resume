@@ -4,7 +4,7 @@ import { Home } from "./Modules/Home/Home.jsx";
 import Professional from "./Modules/Themes/professional.jsx";
 import Mainframe from "./Modules/Themes/mainframe.jsx";
 import Superhero from "./Modules/Themes/superhero.jsx";
-import Custom from "./Modules/ThemeCustom/Custom.jsx";
+import Custom from "./Modules/ThemeCustom/ThemeCustom.jsx";
 import "./App.css";
 
 // APP ROUTES

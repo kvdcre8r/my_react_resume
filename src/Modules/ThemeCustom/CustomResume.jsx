@@ -2,8 +2,6 @@ import styled from "styled-components";
 import Header from "../Header/Header.jsx";
 import ResumeContent from "../Resume/Resume.jsx";
 
-// PROFESSIONAL THEME STYLING (layout at bottom of file)
-
 export const CustomStyle = styled.div`
 
   header {
@@ -95,8 +93,6 @@ export const CustomStyle = styled.div`
     }
   }
 
-  /* responsive behavior */
-
   @media screen and (max-width: 600px) {
     font-size: 0.9em;
   }
@@ -111,8 +107,8 @@ export const CustomStyle = styled.div`
     }
   }
 `;
-
-// PROFESSIONAL THEME LAYOUT
+ 
+// custom resume component
 
 function CustomResume() {
   return (

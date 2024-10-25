@@ -7,7 +7,7 @@ export function SlideDynamics() {
         <span> Dynamic Features</span>
       </i>
       <p>
-        Look for arrow icons, hoverable menus, and "more" buttons to discover
+        Look for arrow icons, hoverable menus, and custom themes to discover
         extra content
       </p>
     </article>

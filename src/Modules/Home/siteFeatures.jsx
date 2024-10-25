@@ -16,15 +16,15 @@ export function SiteFeatures() {
         </details>
         <details name="features">
           <summary>Dynamic Content</summary>
-          <p>Dropdown menus, expandable items, and collapsible sections</p>
+          <p>Dropdown menus, expandable items, and collapsible sections, and more</p>
         </details>
         <details name="features">
           <summary>Modular Components</summary>
-          <p>Blocks of reusable code allowing for quick and easy modifications</p>
+          <p>Blocks of reusable code allowing for easy modifications organized in an intuitive file structure</p>
         </details>
         <details name="features">
           <summary>Customizations</summary>
-          <p>COMING SOON!</p>
+          <p>Highly customizable resume theme showcasing feature-rich styling and modification</p>
         </details>
         <details name="features">
           <summary>Animations</summary>
