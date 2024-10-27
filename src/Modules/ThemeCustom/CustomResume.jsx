@@ -63,7 +63,7 @@ export const CustomStyle = styled.div`
       margin-top: 0.75em;
 
       h2 {
-        border-bottom: 0.1em solid rgb(47, 66, 87);
+        border-bottom: 0.1em solid;
       }
 
       article {
