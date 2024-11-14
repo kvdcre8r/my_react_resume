@@ -19,8 +19,7 @@ export default function ResExperience() {
             ordering
           </li>
           <li>
-            Prepared items received into facility to be processed for online
-            ordering
+          Coordinated with team leaders to expedite inventory processes
           </li>
         </ul>
         <h3>

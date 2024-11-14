@@ -10,9 +10,8 @@ export default function ResEducation() {
           WEB DEVELOPMENT BOOTCAMP GRADUATE | Fullstack Academy | 2023 - 2024
         </h3>
         <p>
-            Immersive software coding bootcamp focused on mastering HTML and
-            JavaScript foundations, front- and back-end development, and
-            databases
+          Immersive software coding bootcamp focused on mastering HTML and
+          JavaScript foundations, front- and back-end development, and databases
         </p>
         <ul>
           <li>
@@ -20,9 +19,8 @@ export default function ResEducation() {
             web applications
           </li>
           <li>
-            Established technical skills including understanding of full stack
-            development, comprehension of databases and APIs, and creation of
-            responsive CSS layouts and stylized designs
+            Established full stack technical skills including databases and
+            APIs, responsive layouts, and stylized designs
           </li>
           <li>
             Enhanced interpersonal skills including teamwork, working remotely,
