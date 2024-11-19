@@ -7,7 +7,7 @@ export default function ResProjects() {
       <h2>Technical Projects</h2>
       <article>
         <h3>
-          PRESTO RESUME BUILDER | Current Project |
+          INSPIRE RESUME BUILDER | Current Project |
           <a href="https://kvdeveloper-resume-builder.netlify.app">
             Website Link
           </a>
