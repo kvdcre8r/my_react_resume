@@ -7,7 +7,27 @@ export default function ResProjects() {
       <h2>Technical Projects</h2>
       <article>
         <h3>
-          INSPIRE RESUME BUILDER | Current Project |
+          MY FAMILY ARCHIVE | Current Project |
+          <a href="https://vandonkelaar-archive.netlify.app">
+            Website Link
+          </a>
+          <a href="https://github.com/kvdcre8r/vandonkelaar-archive">
+            Github Repo
+          </a>
+        </h3>
+        <ul>
+          <li>
+            Family archive website that allows users to view family history, geneology, photos, and more
+          </li>
+          <li>
+            Built with HTML, CSS, JavaScript, and React
+          </li>
+          <li>
+            Features a user-friendly interface, responsive design, and dynamic content
+          </li>
+        </ul>
+        <h3>
+          INSPIRE RESUME BUILDER | Mar '25 |
           <a href="https://kvdeveloper-resume-builder.netlify.app">
             Website Link
           </a>
