@@ -13,8 +13,8 @@ export default function btnMenu() {
           </i>
         </button>
         <div className="dropdown-content">
-          <Link to="/professional" id="btn-professional">
-            <strong>Professional</strong>
+          <Link to="/technical" id="btn-technical">
+            <strong>T e c h n i c a l</strong>
           </Link>
           <Link to="/mainframe" id="btn-mainframe">MAINFRAME</Link>
           <Link to="/superhero" id="btn-superhero">

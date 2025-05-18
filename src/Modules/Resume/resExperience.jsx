@@ -18,12 +18,11 @@ export default function ResExperience() {
             Prepared items received into facility to be processed for online
             ordering
           </li>
-          <li>
-          Coordinated with team leaders to expedite inventory processes
-          </li>
+          <li>Coordinated with team leaders to expedite inventory processes</li>
         </ul>
         <h3>
-          FREELANCE GRAPHICS PRODUCER | Greenville, SC & O’Fallon, MO | 2017 - PRESENT
+          FREELANCE GRAPHICS PRODUCER | Greenville, SC & O’Fallon, MO | 2017 -
+          PRESENT
         </h3>
         <p>
           Produces visuals and graphics for performers and audiences during
@@ -39,9 +38,7 @@ export default function ResExperience() {
             throughout the auditorium
           </li>
         </ul>
-        <h3>
-          GENERAL MANAGER | SOS Thrift Store | Greenville, SC | 2017
-        </h3>
+        <h3>GENERAL MANAGER | SOS Thrift Store | Greenville, SC | 2017</h3>
         <p>
           Resolved daily high-stress situations while managing a Non-Profit
           Organization (NPO). Handled client relations, customer concerns,

@@ -81,6 +81,17 @@ nav {
 
       /* theme buttons on dropdown */
 
+      #btn-technical {
+        font-family: "josefin-sans";
+      }
+
+      #btn-technical:hover {
+        color: rgb(255, 89, 0);
+        text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+        background-color: silver;
+        border: 0.1em solid #2f42c2;
+      }
+
       #btn-professional {
         font-family: "open-sans";
       }
