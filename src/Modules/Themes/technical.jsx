@@ -115,15 +115,10 @@ export const TechnicalStyle = styled.div`
       text-align: center;
     }
 
-    .res-skills {
-      padding-bottom: 1em;
-    }
-
     section {
       display: flex;
       flex-direction: column;
       align-items: center;
-      padding-left: 1em;
 
       h2 {
         color: black;
@@ -171,7 +166,6 @@ export const TechnicalStyle = styled.div`
           li {
             padding-bottom: 0.3em;
             font-size: 1.5em;
-            list-style: none;
           }
         }
       }

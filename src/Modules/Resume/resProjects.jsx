@@ -8,22 +8,20 @@ export default function ResProjects() {
       <article>
         <h3>
           MY FAMILY ARCHIVE | Current Project |
-          <a href="https://vandonkelaar-archive.netlify.app">
-            Website Link
-          </a>
+          <a href="https://vandonkelaar-archive.netlify.app">Website Link</a>
           <a href="https://github.com/kvdcre8r/vandonkelaar-archive">
             Github Repo
           </a>
         </h3>
+        <p>
+          Family archive website that allows users to view family history,
+          geneology, photos, and more
+        </p>
         <ul>
+          <li>Built with HTML, CSS, JavaScript, and React</li>
           <li>
-            Family archive website that allows users to view family history, geneology, photos, and more
-          </li>
-          <li>
-            Built with HTML, CSS, JavaScript, and React
-          </li>
-          <li>
-            Features a user-friendly interface, responsive design, and dynamic content
+            Features a user-friendly interface, responsive design, and dynamic
+            content
           </li>
         </ul>
         <h3>
@@ -35,14 +33,12 @@ export default function ResProjects() {
             Github Repo
           </a>
         </h3>
+        <p>
+          Resume builder application that allows users to create and customize their own resumes
+        </p>
         <ul>
           <li>
-            Resume builder application that allows users to create and customize
-            their own resumes
-          </li>
-          <li>
-            Receives user input and dynamically generates a resume based on the
-            information provided
+            Receives user input and dynamically generates a resume based on the information provided
           </li>
           <li>
             Features the ability to save the user’s finished resume design in
@@ -58,16 +54,16 @@ export default function ResProjects() {
             Github Repo
           </a>
         </h3>
+        <p>
+          Interactive resume webpage constructed with HTML, CSS, JavaScript, and
+          React
+        </p>
         <ul>
-          <li>
-            Interactive resume webpage constructed with HTML, CSS, JavaScript,
-            and React
-          </li>
           <li>
             Features dynamic content, responsive behavior, modular components,
             reusable code, and more
           </li>
-        </ul>{" "}
+        </ul>
         <h3>
           THE SUPER-DEVELOPER | Sept '23 |
           <a href="https://kevin-vandonkelaar-personal-website.github.io/kvdcre8r/">
@@ -77,11 +73,10 @@ export default function ResProjects() {
             Github Repo
           </a>
         </h3>
+        <p>
+            Personal brand website featuring themed sections presenting bio, portfolio, and contact information
+        </p>
         <ul>
-          <li>
-            Personal brand website featuring themed sections presenting bio,
-            portfolio, and contact information
-          </li>
           <li>
             Unique superhero design produces easy-to-follow, functional, and
             engaging user experience
