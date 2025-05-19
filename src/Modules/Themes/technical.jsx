@@ -17,7 +17,12 @@ export const TechnicalStyle = styled.div`
   font-size: 0.8rem;
   border: 0.2em solid #2f42c2;
   border-radius: 0.5em;
-  background: silver;
+  background: linear-gradient(
+    to left,
+    rgb(152, 152, 152),
+    rgb(225, 225, 225),
+    rgb(152, 152, 152)
+  );
 
   header {
     padding: 2em 2em 0em 2em;
