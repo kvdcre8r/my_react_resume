@@ -33,7 +33,7 @@ export const TechnicalStyle = styled.div`
     #profile-pic {
       border: 0.1em solid #2f42c2;
       border-radius: 50%;
-      width: 20em;
+      width: 18em;
       height: max-content;
       background-color: #6d6d6d;
       margin-bottom: 1em;
@@ -218,6 +218,11 @@ export const TechnicalStyle = styled.div`
 
   @media screen and (max-width: 380px) {
     header {
+
+      #profile-pic {
+        width: 15em;
+      }
+
       .text-content {
         font-size: 0.75em;
       }

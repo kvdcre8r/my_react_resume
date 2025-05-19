@@ -42,8 +42,13 @@ nav {
   /* theme dropdown menu */
 
   .dropdown {
-    float: left;
+    float: right;
     overflow: hidden;
+
+    .dropdown-container {
+      position: relative;
+      display: inline-block;
+    }
 
     .dropbtn {
       font-size: 1em;
@@ -58,6 +63,7 @@ nav {
     .dropdown-content {
       display: none;
       position: absolute;
+      right: 0em;
       max-width: 100%;
       box-sizing: border-box;
       background-color: #000000e6;
