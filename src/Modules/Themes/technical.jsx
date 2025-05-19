@@ -164,7 +164,10 @@ export const TechnicalStyle = styled.div`
           flex-direction: column;
           align-items: center;
           li {
+            list-style: none;
             padding-bottom: 0.3em;
+            position: relative;
+            right: 1em;
             font-size: 1.5em;
           }
         }
@@ -186,6 +189,10 @@ export const TechnicalStyle = styled.div`
           padding: 1em 0em;
         }
       }
+    }
+
+    .technical-resume {
+      font-size: 0.8em;
     }
   }
 
